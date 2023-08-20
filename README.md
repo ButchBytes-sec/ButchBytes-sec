@@ -10,6 +10,8 @@
   - Lorem Ipsum
 - [Active Directory Homelab](_blank)
   - Lorem Ipsum
+- [TryHackMe Rooms](_blank)
+  - Lorem Ipsum
 
 
 <h2>🎯 SOC Core Skills</h2>
