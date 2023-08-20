@@ -2,7 +2,7 @@
 
 <h2>👨‍💻 Cybersecurity Projects:</h2>
 
-- Home SOC Analyst Lab
+- [Home SOC Analyst Lab](_blank)
   - Lorem Ipsum
 - Packet Capture Lab with Wireshark and TCPDump
   - Lorem Ipsum
