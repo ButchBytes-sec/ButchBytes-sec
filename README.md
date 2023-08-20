@@ -10,7 +10,7 @@
   - Lorem Ipsum
 - [Active Directory Homelab](_blank)
   - Lorem Ipsum
-- [TryHackMe Rooms](_blank)
+- [TryHackMe Rooms](https://github.com/ButchBytes-sec/TryHackMe)
   - Lorem Ipsum
 
 
