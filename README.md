@@ -1,4 +1,6 @@
-<h1>Hey there, I'm Butch! Welcome to my page where I share and document the exciting projects, labs, and publications I'm currently involved in. Feel free to kick back, relax, and enjoy the content I have in store for you! :)</h1>
+<h1>Hey there, I'm Butch!</h1>
+
+<h3>Welcome to my page where I share and document the exciting projects, labs, and publications I'm currently involved in. Feel free to kick back, relax, and enjoy the content I have in store for you! :)</h3>h3
 
 <h2>👨‍💻 Cybersecurity Projects:</h2>
 
