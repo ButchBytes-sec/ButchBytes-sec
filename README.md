@@ -12,7 +12,7 @@
   - Lorem Ipsum
 
 
-<h2>SOC Core Skills</h2>
+<h2>🎯 SOC Core Skills</h2>
 
 - [Endpoint Analysis](https://www.youtube.com/watch?v=Lhol4rZo_ts)
 - [Crisis Management](https://www.youtube.com/watch?v=Lhol4rZo_ts)
