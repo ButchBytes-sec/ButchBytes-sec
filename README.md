@@ -4,9 +4,9 @@
 
 - [Home SOC Analyst Lab](_blank)
   - Lorem Ipsum
-- Packet Capture Lab with Wireshark and TCPDump
+- [Packet Capture Lab with Wireshark and TCPDump](_blank)
   - Lorem Ipsum
-- Active Directory Homelab
+- [Active Directory Homelab](_blank)
   - Lorem Ipsum
 
 
