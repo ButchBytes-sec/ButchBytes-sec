@@ -17,7 +17,8 @@ This is my attempt to answer the Wireshark Challenge from one of the activities 
 - See port 3942 associated with IP 192.168.1.6.
 - Right-click > Apply as Filter > Selected.
 - The filter is applied in the display filter bar.
-- <img>https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Wireshark%20Images/Wireshark1/1.png</img>
+
+
 - The answer is SSDP
 
 
