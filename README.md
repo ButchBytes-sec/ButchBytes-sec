@@ -11,7 +11,7 @@
  
 <h2>🌐 Networking:</h2>
  
-- [Packet Capture Lab with Wireshark and TCPDump](_blank)
+- [Packet Capture Lab with Wireshark](_blank)
   - Lorem Ipsum
 - [Active Directory Homelab](_blank)
   - Lorem Ipsum
