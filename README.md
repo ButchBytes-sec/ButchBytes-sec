@@ -12,7 +12,7 @@
 <h2>🌐 Networking:</h2>
  
 - [Packet Capture Lab with Wireshark 1](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Networking/Wireshark/Wireshark%20Security%20Blue%20Team%20Activity%201.md)
-  - This lab demonstrates how I solved the Wireshark activity from on of [Security Blue Team](https://www.securityblue.team/)'s free courses
+  - This lab demonstrates how I solved the Wireshark activity from one of [Security Blue Team](https://www.securityblue.team/)'s free courses
 - [Active Directory Homelab](_blank)
   - Lorem Ipsum
 
