@@ -11,7 +11,7 @@
  
 <h2>🌐 Networking:</h2>
  
-- [Packet Capture Lab with Wireshark 1]([_blank](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Networking/Wireshark/Wireshark%20Security%20Blue%20Team%20Activity%201.md))
+- [Packet Capture Lab with Wireshark 1](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Networking/Wireshark/Wireshark%20Security%20Blue%20Team%20Activity%201.md)
   - Lorem Ipsum
 - [Active Directory Homelab](_blank)
   - Lorem Ipsum
