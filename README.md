@@ -6,11 +6,21 @@
 
 - [Home SOC Analyst Lab](_blank)
   - Lorem Ipsum
+- [TryHackMe Rooms](https://github.com/ButchBytes-sec/TryHackMe)
+  - Lorem Ipsum
+ 
+<h2>👨‍💻 Networking:</h2>
+ 
 - [Packet Capture Lab with Wireshark and TCPDump](_blank)
   - Lorem Ipsum
 - [Active Directory Homelab](_blank)
   - Lorem Ipsum
-- [TryHackMe Rooms](https://github.com/ButchBytes-sec/TryHackMe)
+
+<h2>👨‍💻 Programming:</h2>
+
+- [Python](_blank)
+  - Lorem Ipsum
+- [Shell](_blank)
   - Lorem Ipsum
 
 
