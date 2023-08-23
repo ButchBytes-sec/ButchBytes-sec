@@ -9,7 +9,7 @@ This is my attempt to answer the Wireshark Challenge from one of the activities 
 **3. How many DNS query response packets were captured?**
 
 **4. What is the IP address of the host which sent the most number of bytes?**
-<br>
+<div>
 
 **1. Which protocol was used over port 3942?**
 
