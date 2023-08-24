@@ -20,8 +20,8 @@
 
 <h2>📒 Trainings Attended and Notes:</h2>
 
-- [Antisyphon Blue Team Summit 2023 Day 1](https://github.com/ButchBytes-sec/ButchBytes-sec/commit/3b418cbf5111231d63d92d053f2848237b25e220?short_path=5f082de#diff-5f082dea1aacfcbec3901a9a8d4cb94540650b72473730b5c08257bba8391961)
-- [Antisyphon Blue Team Summit 2023 Day 2](_blank)
+- [Antisyphon Blue Team Summit 2023](https://github.com/ButchBytes-sec/ButchBytes-sec/commit/3b418cbf5111231d63d92d053f2848237b25e220?short_path=5f082de#diff-5f082dea1aacfcbec3901a9a8d4cb94540650b72473730b5c08257bba8391961)
+
 
 <h2>💻 Basics of Computing</h2>
 
