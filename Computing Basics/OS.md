@@ -21,15 +21,19 @@ Here are the questions located at the end of the book designed to confirm unders
 <h3>Answers:</h3>
 1. Main Facilities Provided by an Operating System:
 Examples include process management, memory management, file system management, user interface, and networking. For instance, an OS manages multiple programs running simultaneously (process management), allocates memory to programs (memory management), provides a way to organize files (file system management), offers a graphical interface (user interface), and enables devices to communicate over a network (networking).
+
 2. Type of Computing with Personal Computer:
 Most personal computers use interactive computing. Interactive computing allows users to interact directly with the computer through a graphical user interface (GUI) or command line. Examples include using a web browser, text editor, or file explorer.
+
 3. Time-Sharing Processing vs. Batch Processing:
 Time-sharing processing is preferred when multiple users need simultaneous access to a computer system. For example, a server where users are performing tasks concurrently. Batch processing is useful when a large number of similar tasks need to be executed without user intervention, like processing payroll.
 In a nutshell:
 - Time-sharing processing is like everyone cooking in a shared kitchen, taking turns to use the computer for different tasks.
 - Batch processing is like a factory making many similar things on a conveyor belt, handling repetitive tasks efficiently without needing constant supervision.
+  
 4. Work with Windows and Interface Levels:
 Most users work with the graphical interface of Windows, using icons, windows, and a mouse. There's also a command-line interface (Command Prompt) that offers text-based interaction.
+
 5. Linux Commands:
     - `who`: Shows users currently logged in.
     - `cd`: Changes the current directory.
@@ -41,19 +45,26 @@ Most users work with the graphical interface of Windows, using icons, windows, a
     - `more`: Displays content one screen at a time.
     - `cat`: Concatenates and displays file content.
     - `pico`: A text editor.
+    - 
 6. Differences Between Windows and Linux:
 Differences include licensing (Windows is proprietary, Linux is open-source), file system structure, user interface, package management, and security model.
+
 7. Limitations/Disadvantages of Windows:
 Proprietary nature, susceptibility to viruses/malware, resource-intensive, and costs associated with licensing.
+
 8. Limitations/Disadvantages of Linux:
 Learning curve for new users, limited availability of certain proprietary software, and hardware compatibility issues (though this has improved).
+
 9. Differences Between Unix and Linux:
 Similarities due to Linux being inspired by Unix, but differences include licensing (Unix was initially proprietary), system architecture, and command variations.
+
 10. Advantages/Disadvantages of Internal and External Views:
-    - **Internal View:** Provides low-level details and control over system operations but can be complex for non-experts.
-    - **External View:** Offers a user-friendly interface and abstracts complexities, but users have limited control over system internals.
+    - Internal View: Provides low-level details and control over system operations but can be complex for non-experts.
+    - External View: Offers a user-friendly interface and abstracts complexities, but users have limited control over system internals.
+      
 11. Linux ps Command:
 The `ps` command shows currently running processes. The number of processes and their details are displayed. Additional options provide more detailed information.
+
 12. Commercial Support and Applications for Linux:
 Search for companies that offer paid support for Linux distributions, such as Red Hat or SUSE. There are various commercial applications available for Linux, including office suites (LibreOffice), graphic design software (GIMP), and more.
 ---
