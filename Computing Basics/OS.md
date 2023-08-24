@@ -27,9 +27,9 @@ Most personal computers use interactive computing. Interactive computing allows 
 
 3. Time-Sharing Processing vs. Batch Processing:
 Time-sharing processing is preferred when multiple users need simultaneous access to a computer system. For example, a server where users are performing tasks concurrently. Batch processing is useful when a large number of similar tasks need to be executed without user intervention, like processing payroll.
-In a nutshell:
-- Time-sharing processing is like everyone cooking in a shared kitchen, taking turns to use the computer for different tasks.
-- Batch processing is like a factory making many similar things on a conveyor belt, handling repetitive tasks efficiently without needing constant supervision.
+- In a nutshell:
+-   Time-sharing processing is like everyone cooking in a shared kitchen, taking turns to use the computer for different tasks.
+-   Batch processing is like a factory making many similar things on a conveyor belt, handling repetitive tasks efficiently without needing constant supervision.
   
 4. Work with Windows and Interface Levels:
 Most users work with the graphical interface of Windows, using icons, windows, and a mouse. There's also a command-line interface (Command Prompt) that offers text-based interaction.
