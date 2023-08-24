@@ -20,23 +20,26 @@ This is my response to the Wireshark Challenge, one of the activities in Securit
 ---
 **2. What is the IP address of the host that was pinged twice?**
 - Type ICMP in filter.
-- IP address 192.168.1.7 pinged 8.8.4.4 twice. The answer is 8.8.4.4
+- IP address 192.168.1.7 pinged 8.8.4.4 twice. The answer is: 8.8.4.4
  ![3](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/875d9b2d-aa8a-4ea0-8ccf-4e6654d8b303)
 
 ---
 **3. How many DNS query response packets were captured?**
 - Type DNS in filter.
 - Select a packet from the packet list with the "Info" column displaying "Standard query response." Next, navigate to the packet details pane and access the information regarding the "Flags" section.
-- 
+![4](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/2dfc41e2-586e-4880-9154-38bbcb41adcf)
+
 - The first flag says “Message is a response”; right-click this and select Apply as Filter > Selected.
-- 
-- At the bottom, you will see the count of packets displayed with the applied filter. The answer is:
-- 
+![5](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/d4d16b08-0dd8-4207-a2cd-aec8450045ee)
+
+- At the bottom, you will see the count of packets displayed with the applied filter. The answer is: 90
+![6](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/94f57c81-ddfd-4676-aca6-19a8ce0d0e12)
+
 ---
 **4. What is the IP address of the host which sent the most number of bytes?**
 - tatistics > Endpoints > IPv4 tab > Click the “Tx Bytes” column and sort to largest to smallest
-- The IP address of the host which sent the most number of bytes and the answer is 115.178.9.18
-- 
-- 
+- The IP address of the host which sent the most number of bytes and the answer is: 115.178.9.18
+![7](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/6a90f364-4c68-4604-975a-e519c43dd0cf)
+
 
 
