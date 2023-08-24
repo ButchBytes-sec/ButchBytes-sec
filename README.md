@@ -7,7 +7,7 @@
 - [Home SOC Analyst Lab](_blank)
 - [TryHackMe Rooms](https://github.com/ButchBytes-sec/TryHackMe)
  
-<h2>🌐 Networking Prjoects:</h2>
+<h2>🌐 Networking Projects:</h2>
  
 - [Packet Capture Lab with Wireshark 1](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Networking/Wireshark/Wireshark%20Security%20Blue%20Team%20Activity%201.md)
 - [Packet Capture Lab with Wireshark 2](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Networking/Wireshark/Wireshark%20Security%20Blue%20Team%20Activity%202.md)
