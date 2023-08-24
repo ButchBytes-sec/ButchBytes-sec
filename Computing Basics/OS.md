@@ -1,6 +1,8 @@
 <h2>Basic Concepts of Operating Systems</h2>
 _https://samples.jbpub.com/9781449626341/26341_CH01_Garrido.pdf_
+
 ---
+
 Here are the questions located at the end of the book designed to confirm your understanding of the Basic Concepts of Operating Systems:
 1. Explain the main facilities provided by an operating system. Give examples.
 2. What type of computing do you normally use with your personal computer: batch or interactive? Explain and give examples.
