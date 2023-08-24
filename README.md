@@ -18,7 +18,7 @@
 - [Python](_blank)
 - [Shell](_blank)
 
-<h2>📒 Training Notes:</h2>
+<h2>📒 Trainings Attended and Notes:</h2>
 
 - [Antisyphon Blue Team Summit 2023 Day 1](_blank)
 - [Antisyphon Blue Team Summit 2023 Day 2](_blank)
