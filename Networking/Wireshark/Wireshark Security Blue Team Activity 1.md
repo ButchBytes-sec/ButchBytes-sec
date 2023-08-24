@@ -27,19 +27,23 @@ This is my response to the Wireshark Challenge, one of the activities in Securit
 **3. How many DNS query response packets were captured?**
 - Type DNS in filter.
 - Select a packet from the packet list with the "Info" column displaying "Standard query response." Next, navigate to the packet details pane and access the information regarding the "Flags" section.
-![4](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/2dfc41e2-586e-4880-9154-38bbcb41adcf)
+![4](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/5db28fd8-8835-4c0e-9a2a-474897235170)
+
 
 - The first flag says “Message is a response”; right-click this and select Apply as Filter > Selected.
-![5](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/d4d16b08-0dd8-4207-a2cd-aec8450045ee)
+![5](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/9fa0f0b4-c623-4204-9b61-a535cdc4bfc2)
+
 
 - At the bottom, you will see the count of packets displayed with the applied filter. The answer is: 90
-![6](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/94f57c81-ddfd-4676-aca6-19a8ce0d0e12)
+![6](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/03ff4c44-cdb4-4d5e-bdef-7fdd51793efa)
+
 
 ---
 **4. What is the IP address of the host which sent the most number of bytes?**
 - tatistics > Endpoints > IPv4 tab > Click the “Tx Bytes” column and sort to largest to smallest
 - The IP address of the host which sent the most number of bytes and the answer is: 115.178.9.18
-![7](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/6a90f364-4c68-4604-975a-e519c43dd0cf)
+![7](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/fe80f1af-b7d8-412c-b35c-c89941be9893)
+
 
 
 
