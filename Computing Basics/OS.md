@@ -68,54 +68,7 @@ The `ps` command shows currently running processes. The number of processes and 
 12. Commercial Support and Applications for Linux:
 Search for companies that offer paid support for Linux distributions, such as Red Hat or SUSE. There are various commercial applications available for Linux, including office suites (LibreOffice), graphic design software (GIMP), and more.
 ---
-
-<h3>Supplementary:</h3>
-
-1. What is the WebAdmin password?
-- Edit > Find Packet or simply click the magnifying glass. Then, Packet Details > String > ”WebAdmin”, Find.
-[8]
-- Check out the HTML code that includes the text “webadmin”.
-[9]
-- Let’s find the password.txt file and find the webadmin password.
-- In the Find Packet options, change the first option to Packet list, and type in the string “password.txt” ,then click Find.
-- An HTTP GET request is highlighted in the packet list which contains the string “password.txt”.
-[10]
-- Right-click the packet and Follow the HTTP stream to see the contents of the password.txt file.
-[11]
-- The WebAdmin password and the answer is: “sbt123”
-[12]
-________________________
-2. What is the version number of the attacker’s FTP server?
-- Right-click the source IP address in the GET request packet and apply it as a selected filter.
-- Add and ftp to the current display filter to find all ftp traffic from the IP address in question.
-[13]
-- FTP info shows version and the answer is: 1.5.5.
-[14]
-________________________
-3. Which port was used to gain access to the victim Windows host?
-- Change the display filter so it only shows packets where 192.168.56.1 is the source IP.
-- A series of ACKs indicates an established connection; The port and answer is:8081
-[15]
-________________________
-4. What is the name of a confidential file on the Windows host?
-- I followed the TCP stream of TCP Retransmission packet 4258 which dropped me in at stream 2079.
-[16]
-- I used the arrows at the bottom right of the TCP stream window to move between streams.
-- I eventually found stream 2075 which shows commands being used to list the contents of the desktop. The confidential file is listed below and the answer is: Employee_Information_CONFIDENTIAL.txt
-[17]
-
-________________________
-5. What is the name of the log file that was created at 4:51 AM on the Windows host?
-In stream 2075 the desktop contents also show a LogFile.log file created at and the answer is: 4:51 AM.
-[18]
-
-I am seeking an opportunity within my own community as a Messenger Personnel to apply my computer literacy and physical fitness. I aim to contribute to a team and acquire new skills in the process.
-
-In a nutshell:
-- Time-sharing processing is like everyone cooking in a shared kitchen, taking turns to use the computer for different tasks.
-- Batch processing is like a factory making many similar things on a conveyor belt, handling repetitive tasks efficiently without needing constant supervision.
-_________
-
+Supplementary:
 
 1. Imagine you're organizing your computer's files into folders. How is this similar to a file system's organization?
 
