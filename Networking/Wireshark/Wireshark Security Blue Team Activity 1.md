@@ -21,7 +21,8 @@ This is my response to the Wireshark Challenge, one of the activities in Securit
 **2. What is the IP address of the host that was pinged twice?**
 - Type ICMP in filter.
 - IP address 192.168.1.7 pinged 8.8.4.4 twice. The answer is 8.8.4.4
-- 
+ ![3](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/875d9b2d-aa8a-4ea0-8ccf-4e6654d8b303)
+
 ---
 **3. How many DNS query response packets were captured?**
 - Type DNS in filter.
