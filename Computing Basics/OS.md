@@ -17,8 +17,8 @@ Here are the questions located at the end of the book designed to confirm unders
 11. Log in to Linux. At the command prompt, type man ps to read the online manual documentation for the ps command. After reading this documentation, type ps. How many programs are active? How are they identified? Are these all the programs in the OS? Investigate with the options in the ps command.
 12. Search the Internet to find data on the commercial support and commercial applications developed for Linux.
 ---
+Answers
 
-<h3>Answers:</h3>
 1. Main Facilities Provided by an Operating System:
 Examples include process management, memory management, file system management, user interface, and networking. For instance, an OS manages multiple programs running simultaneously (process management), allocates memory to programs (memory management), provides a way to organize files (file system management), offers a graphical interface (user interface), and enables devices to communicate over a network (networking).
 
