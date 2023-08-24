@@ -27,6 +27,7 @@ This is my response to the Wireshark Challenge, one of the activities in Securit
 **3. How many DNS query response packets were captured?**
 - Type DNS in filter.
 - Select a packet from the packet list with the "Info" column displaying "Standard query response." Next, navigate to the packet details pane and access the information regarding the "Flags" section.
+- 
 - The first flag says “Message is a response”; right-click this and select Apply as Filter > Selected.
 - 
 - At the bottom, you will see the count of packets displayed with the applied filter. The answer is:
