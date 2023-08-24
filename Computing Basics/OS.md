@@ -3,7 +3,7 @@
 
 ---
 
-Here are the questions located at the end of the book designed to confirm your understanding of the Basic Concepts of Operating Systems:
+Here are the questions located at the end of the book designed to confirm understanding of the Basic Concepts of Operating Systems:
 1. Explain the main facilities provided by an operating system. Give examples.
 2. What type of computing do you normally use with your personal computer: batch or interactive? Explain and give examples.
 3. Explain when you would prefer time-sharing processing instead of batch processing.
