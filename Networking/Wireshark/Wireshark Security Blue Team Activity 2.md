@@ -41,7 +41,7 @@ This is part 2 of 2 of the Wireshark Challenge from one of the activities in Sec
 - In stream 2075 the desktop contents also show a LogFile.log file created at and the answer is: 4:51 AM.
 ![16](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/56701203-2718-47e1-bb91-a0cc9a1cdf95)
 ---
-[i]Was inspired by this post: https://www.linkedin.com/pulse/btja-wireshark-challenge-pcap-1-walkthrough-octavious-williams/[/i]
+_Was inspired by this post: https://www.linkedin.com/pulse/btja-wireshark-challenge-pcap-1-walkthrough-octavious-williams/_
 
 
 
