@@ -1,5 +1,5 @@
 <h2>Basic Concepts of Operating Systems</h2>
-_https://samples.jbpub.com/9781449626341/26341_CH01_Garrido.pdf_
+**https://samples.jbpub.com/9781449626341/26341_CH01_Garrido.pdf**
 
 ---
 
