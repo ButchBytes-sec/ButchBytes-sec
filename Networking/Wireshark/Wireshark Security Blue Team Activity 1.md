@@ -1,6 +1,6 @@
 Overview:
 
-This is my response to the Wireshark Challenge, one of the activities in Security Blue Team's free course. Participants were provided with a couple of .pcapng files and were presented with questions based on the content. Here are the questions for the first file:
+This is my response to the Wireshark Challenge, one of the activities in Security Blue Team's free course. Participants were provided with a couple of .pcapng files and were presented with questions based on the content. Here are the questions for the part 1 of 2:
 
 1. Which protocol was used over port 3942?
 2. What is the IP address of the host that was pinged twice?
