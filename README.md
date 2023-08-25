@@ -23,10 +23,13 @@
 - [Antisyphon Blue Team Summit 2023](https://github.com/ButchBytes-sec/ButchBytes-sec/commit/3b418cbf5111231d63d92d053f2848237b25e220?short_path=5f082de#diff-5f082dea1aacfcbec3901a9a8d4cb94540650b72473730b5c08257bba8391961)
 
 
-<h2>💻 Basics of Computing</h2>
+<h2>💻 Courses</h2>
 
-- [OS](_blank)
 - [CompTIA A+](_blank)
+- [CompTIA N+](_blank)
+- [CompTIA S+](_blank)
+- [OS](_blank)
+
 
 <h2>🎯 SOC Core Skills</h2>
 
