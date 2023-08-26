@@ -18,6 +18,12 @@
 - [Python](_blank)
 - [Shell](_blank)
 
+<h2>👨‍💻 Cybersecurity Strategies & Concepts:</h2>
+
+- [MITRE ATT&CK](_blank)
+- [Kill Chain](_blank)
+- [OWASP Top 10](_blank)
+
 <h2>📒 Trainings Attended, Certifications and Notes:</h2>
 
 - [Antisyphon Blue Team Summit 2023](https://github.com/ButchBytes-sec/ButchBytes-sec/commit/3b418cbf5111231d63d92d053f2848237b25e220?short_path=5f082de#diff-5f082dea1aacfcbec3901a9a8d4cb94540650b72473730b5c08257bba8391961)
