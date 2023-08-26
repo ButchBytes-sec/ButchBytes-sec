@@ -21,7 +21,7 @@
 <h2>🧠 Cybersecurity Strategies & Concepts:</h2>
 
 - [MITRE ATT&CK](_blank)
-- [Kill Chain](_blank)
+- [Cyber Kill Chain](_blank)
 - [OWASP Top 10](_blank)
 
 <h2>📒 Trainings Attended, Certifications and Notes:</h2>
