@@ -18,7 +18,7 @@
 - [Python](_blank)
 - [Shell](_blank)
 
-<h2>🧠 Cybersecurity Strategies & Concepts:</h2>
+<h2>🧠 Cybersecurity Strategies, Standards, Frameworks & Concepts:</h2>
 
 - [MITRE ATT&CK](_blank)
 - [Cyber Kill Chain](_blank)
