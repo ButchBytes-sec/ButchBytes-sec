@@ -23,6 +23,7 @@
 - [MITRE ATT&CK](_blank)
 - [Cyber Kill Chain](_blank)
 - [OWASP Top 10](_blank)
+- [OSINT](_blank)
 
 <h2>📒 Trainings Attended, Certifications and Notes:</h2>
 
