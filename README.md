@@ -32,10 +32,11 @@
 
 <h2>💻 Courses</h2>
 
+- [OS](_blank)
 - [CompTIA A+](_blank)
 - [CompTIA N+](_blank)
 - [CompTIA S+](_blank)
-- [OS](_blank)
+
 
 
 <h2>🎯 SOC Core Skills</h2>
