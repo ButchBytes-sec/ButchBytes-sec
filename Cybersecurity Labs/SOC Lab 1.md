@@ -7,3 +7,6 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 2. Setup Ubuntu Server VM
 3. Setup Windows VM
 4. Install LimaCharlie EDR on Windows
+5. Setup Attack System
+
+
