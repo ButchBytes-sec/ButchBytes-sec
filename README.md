@@ -6,6 +6,10 @@
 
 - [Home SOC Analyst Lab](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/SOC%20Lab%201.md)
 - [TryHackMe Rooms](https://github.com/ButchBytes-sec/TryHackMe)
+
+<h2>🔰 Google Cybersecurity Professional Activities:</h2>
+
+- 
  
 <h2>🌐 Networking Projects:</h2>
  
