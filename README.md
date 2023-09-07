@@ -15,12 +15,12 @@
  
 - [Packet Capture Lab with Wireshark 1](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Networking/Wireshark/Wireshark%20Security%20Blue%20Team%20Activity%201.md)
 - [Packet Capture Lab with Wireshark 2](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Networking/Wireshark/Wireshark%20Security%20Blue%20Team%20Activity%202.md)
-- [Active Directory Homelab](_blank)
+- [Active Directory Homelab]
 
 <h2>👨‍💻 Programming Projects:</h2>
 
-- [Python](_blank)
-- [Shell](_blank)
+- [Python]
+- [Shell Scripts]
 
 <h2>🧠 Cybersecurity Strategies, Standards, Frameworks & Concepts:</h2>
 
@@ -39,7 +39,7 @@
 
 <h2>💻 Courses</h2>
 
-- [OS](_blank)
+- [OS](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Computing%20Basics/OS.md)
 - [CompTIA A+]
 - [CompTIA N+]
 - [CompTIA S+]
