@@ -20,8 +20,13 @@
  
 <h2>🛡️ Security Blue Team Junior Analyst Notes:</h2>
 
-- [Packet Capture Lab with Wireshark 1](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Networking/Wireshark/Wireshark%20Security%20Blue%20Team%20Activity%201.md)
-- [Packet Capture Lab with Wireshark 2](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Networking/Wireshark/Wireshark%20Security%20Blue%20Team%20Activity%202.md)
+- Network Analysis
+- OSINT
+- Digital Forensics
+- Dark Web Operations
+- Threat Hunting
+- Vulnerability Management
+
 
 <h2>🌐 Networking Projects:</h2>
 
