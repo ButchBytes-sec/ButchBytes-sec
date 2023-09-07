@@ -7,7 +7,7 @@
 - [Home SOC Analyst Lab](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/SOC%20Lab%201.md)
 - [TryHackMe Rooms](https://github.com/ButchBytes-sec/TryHackMe)
 
-<h2>🔰 Google Cybersecurity Professional Activities:</h2>
+<h2>🔰 Google Cybersecurity Professional Activities for Portfolio:</h2>
 
 - [Foundations of Cybersecurity]
 - [Play It Safe: Manage Security Risks]
@@ -18,10 +18,13 @@
 - [Automate Cybersecurity Tasks with Python]
 - [Put It to Work: Prepare for Cybersecurity Jobs]
  
-<h2>🌐 Networking Projects:</h2>
- 
+<h2>🛡️ Security Blue Team Junior Analyst Notes:</h2>
+
 - [Packet Capture Lab with Wireshark 1](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Networking/Wireshark/Wireshark%20Security%20Blue%20Team%20Activity%201.md)
 - [Packet Capture Lab with Wireshark 2](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Networking/Wireshark/Wireshark%20Security%20Blue%20Team%20Activity%202.md)
+
+<h2>🌐 Networking Projects:</h2>
+
 - [Active Directory Homelab]
 
 <h2>👨‍💻 Programming Projects:</h2>
