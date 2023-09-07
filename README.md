@@ -4,7 +4,7 @@
 
 <h2>🛡️ Cybersecurity Projects:</h2>
 
-- [Home SOC Analyst Lab](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/SOC%20Lab%201.md)-ongoing
+- [Home SOC Analyst Lab](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/SOC%20Lab%201.md) - ongoing
 - [TryHackMe Rooms](https://github.com/ButchBytes-sec/TryHackMe)
 
 <h2>🔰 Google Cybersecurity Professional Activities for Portfolio:</h2>
@@ -20,7 +20,7 @@
  
 <h2>🛡️ Security Blue Team Junior Analyst Notes:</h2>
 
-- [Network Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Network%20Analysis.md)-ongoing
+- [Network Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Network%20Analysis.md) - ongoing
 - [OSINT]
 - [Digital Forensics]
 - [Dark Web Operations]
