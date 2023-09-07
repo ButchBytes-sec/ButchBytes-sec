@@ -31,7 +31,7 @@
 
 <h2>📒 Trainings Attended, Certifications and Notes:</h2>
 
-- [Antisyphon Blue Team Summit 2023](https://github.com/ButchBytes-sec/ButchBytes-sec/commit/3b418cbf5111231d63d92d053f2848237b25e220?short_path=5f082de#diff-5f082dea1aacfcbec3901a9a8d4cb94540650b72473730b5c08257bba8391961)
+- [Antisyphon Blue Team Summit 2023](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Anti%20Syphon%20Blue%20Team%20Summit%202023.md)
 - Exploring PowerShell Logging
 - Bring Your Own Vulnerable Driver (BYOVD) Attacks
 - ARP Cache Poisoning
