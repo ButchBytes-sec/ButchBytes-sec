@@ -24,10 +24,10 @@
 
 <h2>🧠 Cybersecurity Strategies, Standards, Frameworks & Concepts:</h2>
 
-- [MITRE ATT&CK](_blank)
-- [Cyber Kill Chain](_blank)
-- [OWASP Top 10](_blank)
-- [OSINT](_blank)
+- [MITRE ATT&CK]
+- [Cyber Kill Chain]
+- [OWASP Top 10]
+- [OSINT]
 
 <h2>📒 Trainings Attended, Certifications and Notes:</h2>
 
@@ -40,9 +40,9 @@
 <h2>💻 Courses</h2>
 
 - [OS](_blank)
-- [CompTIA A+](_blank)
-- [CompTIA N+](_blank)
-- [CompTIA S+](_blank)
+- [CompTIA A+]
+- [CompTIA N+]
+- [CompTIA S+]
 
 
 
