@@ -9,7 +9,14 @@
 
 <h2>🔰 Google Cybersecurity Professional Activities:</h2>
 
-- 
+- [Foundations of Cybersecurity]
+- [Play It Safe: Manage Security Risks]
+- [Connect and Protect: Networks and Network Security]
+- [Tools of the Trade: Linux and SQL]
+- [Assets, Threats, and Vulnerabilities]
+- [Sound the Alarm: Detection and Response]
+- [Automate Cybersecurity Tasks with Python]
+- [Put It to Work: Prepare for Cybersecurity Jobs]
  
 <h2>🌐 Networking Projects:</h2>
  
