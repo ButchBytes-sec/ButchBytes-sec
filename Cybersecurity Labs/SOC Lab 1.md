@@ -51,9 +51,43 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 
 <h3>Setup Windows VM</h3>
 
+Initiate Windows VM<br>
+1. Double-click the `WinDev####Eval.ovf` file to import the VM into VMware
+2. Disable Virtualize Intel VT-x/EPT or AMD-V/RVI
 ![014](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/94b0dee9-e5ec-4e58-995f-9e5bcf665ed4)
+3. Go ahead and “power on” your Windows VM for the first time.
+    1. It will automatically log you in as “user”.
+    2. Wait for the desktop to appear.
+
+Disable Defender on Wwndows VM<br>
+1. Disable Tamper Protection: “Start” > “Settings” > “Privacy & security” > “Windows Security” > “Virus & threat protection” > “Virus & threat protection settings” , click “Manage settings” > Toggle OFF the “Tamper Protection” switch, When prompted, click “Yes”
 ![015](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/3a3bd142-67c8-46bf-a3c1-74568e7ea0d9)
+2. Permanently Disable Defender via Group Policy Editor: “Start”> Type “cmd” in the search bar > Run as administrator > Type and run “gpedit.msc” > Double-click “Turn off Microsoft Defender Antivirus”, select “Enabled” > Apply > OK
+3. Permanently Disable Defender via Registry: run this in cmd - `REG ADD "hklm\software\policies\microsoft\windows defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f`
+4. Prepare to boot into Safe Mode to disable all Defender services: “Start” > run “msconfig” in search > “Boot” > “Boot Options” > Check the box for “Safe boot” and “Minimal” > Click “Apply” and “OK” > System will restart into Safe Mode.
+5. In Safe Mode, we’ll disable some services via the Registry: “Start” > run “regedit” in search bar > For each of the following registry locations, browse the key and find the “Start” value, and change it to 4. Once done, leave safe mode, same as step 4.
+    1. `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Sense`
+    2. `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdBoot`
+    3. `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend`
+    4. `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdNisDrv`
+    5. `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdNisSvc`
+    6. `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdFilter`
 ![016](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/1cdb5d6f-d926-461d-94c2-1049620c961b)
+Prevent the VM from going into standby<br>
+    1. powercfg /change standby-timeout-ac 0
+    2. powercfg /change standby-timeout-dc 0
+    3. powercfg /change monitor-timeout-ac 0
+    4. powercfg /change monitor-timeout-dc 0
+    5. powercfg /change hibernate-timeout-ac 0
+    6. powercfg /change hibernate-timeout-dc 0
+Install Sysmon in Windows VM (Optional)<br>
+While not a direct requirement for this guide, Sysmon can be an invaluable analyst tool for obtaining highly detailed telemetry from your Windows endpoint, providing insights into a wide range of intriguing activities. I strongly encourage its adoption, if only for the sake of becoming familiar with its capabilities.<br>
+    1. Administrative PowerShell > type: “`Invoke-WebRequest -Uri https://download.sysinternals.com/files/Sysmon.zip -OutFile C:\Windows\Temp\Sysmon.zip`" > unzip: “`Expand-Archive -LiteralPath C:\Windows\Temp\Sysmon.zip -DestinationPath C:\Windows\Temp\Sysmon`"
+    2. Download [SwiftOnSecurity](https://infosec.exchange/@SwiftOnSecurity)’s Sysmon config: “`Invoke-WebRequest -Uri https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml -OutFile C:\Windows\Temp\Sysmon\sysmonconfig.xml`"
+    3. Install Sysmon with Swift’s config: "`C:\Windows\Temp\Sysmon\Sysmon64.exe -accepteula -i C:\Windows\Temp\Sysmon\sysmonconfig.xml`"
+    4. Validate Sysmon64 service is installed and running: “`Get-Service sysmon64`"
+    5. Check for the presence of Sysmon Event Logs: “`Get-WinEvent -LogName "Microsoft-Windows-Sysmon/Operational" -MaxEvents 10`"
+
 ![017](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/2ce65e8c-b293-4c22-96bd-fbb07c9fecda)
 ![018](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/5d271d32-6f25-4ec3-9bd9-41aa2f404f81)
 
