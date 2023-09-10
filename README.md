@@ -55,7 +55,7 @@
 <h2>💻 Courses</h2>
 
 - [OS](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Computing%20Basics/OS.md)
-- [CompTIA A+]
+- [CompTIA A+](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/A%2B.md)
 - [CompTIA N+]
 - [CompTIA S+]
 
