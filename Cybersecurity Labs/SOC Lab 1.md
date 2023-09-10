@@ -6,9 +6,9 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 
 <h3>Table of Contents:</h3>
 
-1. [Initial Resources to Download](#initial-resources-to-downloads)<br>
+1. [Initial Resources to Download](#initial-resources-to-download)<br>
 
-2. [Setup Ubuntu Server VM](#steup-ubuntu-server-vm)<br>
+2. [Setup Ubuntu Server VM](#setup-ubuntu-server-vm)<br>
 
 3. [Setup Windows VM](#setup-windows-vm)<br>
 
