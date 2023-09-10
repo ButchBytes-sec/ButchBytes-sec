@@ -32,10 +32,17 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
    1. Find the gateway IP of our VMware Workstation NAT network. “Edit” > “Virtual Network Editor” > “Type: NAT” > “NAT Settings…”
    2. Copy the “Subnet IP” & “Gateway IP” then close the NAT Settings
 ![005](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/782c2470-b566-4990-a878-8bcbdaf09dc7)
+   3. Back in the Ubuntu installer, let’s change the interface from DHCPv4 to Manual.
 ![006](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/a96de051-513c-44dc-ab49-eb59a0bea40d)
 ![007](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/93f5c9a0-c972-4d73-8699-f57840cd9ecd)
 ![008](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/2124ed46-6c6f-4705-bb8e-ac104c71f066)
 ![009](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/bc925373-3959-4674-86ce-e88cd34bda3b)
+   4.  **NOTE**: Write down the Linux VM’s IP address because you will need it multiple times throughout this guide.
+   5.  Set-up username and password. I will use these in this lab:
+    1. Your name: user
+    2. Your server’s name: attack
+    3. Username: user
+    4. Password: password
 ![010](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/0e19fddd-659a-46b2-abe4-80ebe13780b5)
 ![011](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/9b80129d-1da5-4bf7-84e4-7644362a026d)
 ![012](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/b08190cd-4c16-4b33-8d8a-4ed8a9a491a9)
