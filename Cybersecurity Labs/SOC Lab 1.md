@@ -13,5 +13,28 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 
 ---
 
-
+[img001]
+[img002]
+[img003]
+[img004]
+[img005]
+[img006]
+[img007]
+[img008]
+[img009]
+[img010]
+[img011]
+[img012]
+[img013]
+[img014]
+[img015]
+[img016]
+[img017]
+[img018]
+[img019]
+[img020]
+[img021]
+[img022]
+[img023]
+[img024]
 
