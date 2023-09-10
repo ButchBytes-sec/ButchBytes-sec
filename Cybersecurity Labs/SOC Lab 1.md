@@ -83,13 +83,13 @@ Prevent the VM from going into standby<br>
     5. powercfg /change hibernate-timeout-ac 0
     6. powercfg /change hibernate-timeout-dc 0
 <br>
-Install Sysmon in Windows VM (Optional)<br>
+Install Sysmon in Windows VM (Optional)<br><br>
 While not a direct requirement for this guide, Sysmon can be an invaluable analyst tool for obtaining highly detailed telemetry from your Windows endpoint, providing insights into a wide range of intriguing activities. I strongly encourage its adoption, if only for the sake of becoming familiar with its capabilities.<br>
-    1. Administrative PowerShell > type: “`Invoke-WebRequest -Uri https://download.sysinternals.com/files/Sysmon.zip -OutFile C:\Windows\Temp\Sysmon.zip`" > unzip: “`Expand-Archive -LiteralPath C:\Windows\Temp\Sysmon.zip -DestinationPath C:\Windows\Temp\Sysmon`"
-    2. Download [SwiftOnSecurity](https://infosec.exchange/@SwiftOnSecurity)’s Sysmon config: “`Invoke-WebRequest -Uri https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml -OutFile C:\Windows\Temp\Sysmon\sysmonconfig.xml`"
-    3. Install Sysmon with Swift’s config: "`C:\Windows\Temp\Sysmon\Sysmon64.exe -accepteula -i C:\Windows\Temp\Sysmon\sysmonconfig.xml`"
-    4. Validate Sysmon64 service is installed and running: “`Get-Service sysmon64`"
-    5. Check for the presence of Sysmon Event Logs: “`Get-WinEvent -LogName "Microsoft-Windows-Sysmon/Operational" -MaxEvents 10`"
+        1. Administrative PowerShell > type: “`Invoke-WebRequest -Uri https://download.sysinternals.com/files/Sysmon.zip -OutFile C:\Windows\Temp\Sysmon.zip`" > unzip: “`Expand-Archive -LiteralPath C:\Windows\Temp\Sysmon.zip -DestinationPath C:\Windows\Temp\Sysmon`"
+        2. Download [SwiftOnSecurity](https://infosec.exchange/@SwiftOnSecurity)’s Sysmon config: “`Invoke-WebRequest -Uri https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml -OutFile C:\Windows\Temp\Sysmon\sysmonconfig.xml`"
+        3. Install Sysmon with Swift’s config: "`C:\Windows\Temp\Sysmon\Sysmon64.exe -accepteula -i C:\Windows\Temp\Sysmon\sysmonconfig.xml`"
+        4. Validate Sysmon64 service is installed and running: “`Get-Service sysmon64`"
+        5. Check for the presence of Sysmon Event Logs: “`Get-WinEvent -LogName "Microsoft-Windows-Sysmon/Operational" -MaxEvents 10`"
 
 ![017](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/2ce65e8c-b293-4c22-96bd-fbb07c9fecda)
 ![018](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/5d271d32-6f25-4ec3-9bd9-41aa2f404f81)
