@@ -37,13 +37,14 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 ![007](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/93f5c9a0-c972-4d73-8699-f57840cd9ecd)
 ![008](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/2124ed46-6c6f-4705-bb8e-ac104c71f066)
 ![009](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/bc925373-3959-4674-86ce-e88cd34bda3b)
-   4.  **NOTE**: Write down the Linux VM’s IP address because you will need it multiple times throughout this guide.
-   5.  Set-up username and password. I will use these in this lab:
+3. **NOTE**: Write down the Linux VM’s IP address because you will need it multiple times throughout this guide.
+4. Set-up username and password. I will use these in this lab:
     1. Your name: user
     2. Your server’s name: attack
     3. Username: user
     4. Password: password
 ![010](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/0e19fddd-659a-46b2-abe4-80ebe13780b5)
+5. Install OpenSSH server? click “yes” > continue installing OS until “Install complete!” > Hit Enter on [ Reboot Now ] > Login with username and password then > ping -c 2 google.com
 ![011](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/9b80129d-1da5-4bf7-84e4-7644362a026d)
 ![012](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/b08190cd-4c16-4b33-8d8a-4ed8a9a491a9)
 ![013](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/8655b6dc-8d8f-496b-a241-bf508aea3354)
