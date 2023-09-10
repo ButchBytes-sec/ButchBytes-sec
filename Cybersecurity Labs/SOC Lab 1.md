@@ -123,7 +123,7 @@ LimaCharlie is a relatively new, very powerful “Security Infrastructure as a 
         3. Path Pattern: `wel://Microsoft-Windows-Sysmon/Operational:*`
         4. Retention Period: `10`
         5. Click “Save Rule”
-    ![024](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/7fab9652-91a3-4e38-a95a-f0dd97bb89eb)
+![024](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/7fab9652-91a3-4e38-a95a-f0dd97bb89eb)
    3. LimaCharlie will now start shipping Sysmon logs which provide a wealth of EDR-like telemetry, some of which is redundant to LC’s own telemetry, but Sysmon is still a very power visibility tool that runs well alongside any EDR agent.
       1. The other reason we are ingesting Sysmon logs is that the built-in Sigma rules we previously enabled largely depend on Sysmon logs as that is what most of them were written for.
          
