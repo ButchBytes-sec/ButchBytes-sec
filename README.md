@@ -17,7 +17,7 @@
 - [Sound the Alarm: Detection and Response]
 - [Automate Cybersecurity Tasks with Python]
 - [Put It to Work: Prepare for Cybersecurity Jobs]
- 
+
 <h2>🛡️ Security Blue Team Junior Analyst Notes:</h2>
 
 - [Network Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Network%20Analysis.md) - ongoing
@@ -26,6 +26,10 @@
 - [Dark Web Operations]
 - [Threat Hunting]
 - [Vulnerability Management]
+
+<h2>📜 Professional Certificates:</h2>
+
+-[SC-900: Microsoft Security, Compliance, and Identity]
 
 
 <h2>🌐 Networking Projects:</h2>
