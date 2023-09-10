@@ -96,11 +96,33 @@ While not a direct requirement for this guide, Sysmon can be an invaluable analy
 
 <h3>Install LimaCharlie EDR on Windows</h3>
 
+LimaCharlie is a relatively new, very powerful “Security Infrastructure as a Service” platform. It not only comes with a cross-platform EDR agent, but also handles all of the log shipping/ingestion and has a threat detection engine.<br><br>
+1. Create a free [LimaCharlie](https://app.limacharlie.io/signup) account.
+2. Once logged into LimaCharlie, create an organization
+    1. Name: *Anything that is unique*
+    2. Data Residency: *whatever is closest*
+    3. Demo Configuration Enabled: *disabled*
+    4. Template: *Extended Detection & Response Standard*
+3. Once the org is created, click “Add Sensor” > select “Windows” > Provide a description such as: `Windows VM - Lab` > Create > Select the Installation Key we just created > Specify the x86-64 (.exe) sensor, but then skip ahead to my instructions versus the ones provided.
 ![019](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/fb6c8df3-f315-40ff-a80b-452325077b73)
+    1. IN THE **WINDOWS VM**, open an Administrative PowerShell prompt and paste the following commands:
+`cd C:\Users\User\Downloads`
+`Invoke-WebRequest -Uri https://downloads.limacharlie.io/sensor/windows/64 -Outfile C:\Users\User\Downloads\lc_sensor.exe`
 ![020](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/c20081ed-c45e-4ca4-a837-673efb0211e9)
+    2. Shift to cmd by typing`cmd.exe` in Administrative PowerShell
+    3. Next, we will copy the install command provided by LimaCharlie which contains the installation key. Paste this command into your open terminal.
 ![021](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/1e884efd-1a68-4431-87bd-da3d0263d0aa)
+    4. This is the expected output, ignore the “ERROR” that says “service installed!” then go back to LimaCharlie web UI you should also see the sensor reporting in. Hit “Finish”
 ![022](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/557db80c-ccc6-424f-8b42-c540260c0952)
 ![023](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/79b1a721-3b18-4120-b861-18f3fae80f28)
-![024](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/7fab9652-91a3-4e38-a95a-f0dd97bb89eb)
+4. Now let’s configure LimaCharlie to also ship the Sysmon event logs alongside its own EDR telemetry
+    1. In the left-side menu, click “Artifact Collection”
+    2. Next to “Artifact Collection Rules” click “Add Rule”
+        1. Name: `windows-sysmon-logs`
+        2. Platforms: `Windows`
+        3. Path Pattern: `wel://Microsoft-Windows-Sysmon/Operational:*`
+        4. Retention Period: `10`
+        5. Click “Save Rule”
+        ![024](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/7fab9652-91a3-4e38-a95a-f0dd97bb89eb)
 
 <h3>Setup Attack System</h3>
