@@ -17,12 +17,12 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 5. [Setup Attack System](#setup-attack-system)<br>
 
 ---
-<h3>1. Initial Resources to Download</h3>
+<h3>Initial Resources to Download</h3>
    
 [img001]<br>
 [img002]<br>
 
-<h3>2. Setup Ubuntu Server VM</h3>
+<h3>Setup Ubuntu Server VM</h3>
 
 [img003]<br>
 [img004]<br>
@@ -36,14 +36,14 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 [img012]<br>
 [img013]<br>
 
-<h3>3. Setup Windows VM</h3>
+<h3>Setup Windows VM</h3>
 [img014]<br>
 [img015]<br>
 [img016]<br>
 [img017]<br>
 [img018]<br>
 
-<h3>4. Install LimaCharlie EDR on Windows</h3>
+<h3>Install LimaCharlie EDR on Windows</h3>
 [img019]<br>
 [img020]<br>
 [img021]<br>
@@ -51,4 +51,4 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 [img023]<br>
 [img024]<br>
 
-<h3>5. Setup Attack System</h3>
+<h3>Setup Attack System</h3>
