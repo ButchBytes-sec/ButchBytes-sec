@@ -17,9 +17,13 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 5. [Setup Attack System]()<br>
 
 ---
-
+<h3>1. Initial Resources to Download</h3>
+   
 [img001]<br>
 [img002]<br>
+
+<h3>2. Setup Ubuntu Server VM</h3>
+
 [img003]<br>
 [img004]<br>
 [img005]<br>
