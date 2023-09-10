@@ -23,7 +23,9 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 
 <h3>Setup Ubuntu Server VM</h3>
 
-
+1. Download and install [Ubuntu Server 22.04.1](https://releases.ubuntu.com/22.04.1/ubuntu-22.04.1-live-server-amd64.iso) into a new VM with the following specs:
+    1. 2 CPU cores
+    2. 2-4GB RAM
 ![003](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/18c198de-fd16-4273-8db6-7ce9dff6afe9)
 ![004](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/a4d347f1-9507-4956-ae86-5d78d0c51c13)
 ![005](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/782c2470-b566-4990-a878-8bcbdaf09dc7)
