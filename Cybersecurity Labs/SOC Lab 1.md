@@ -19,8 +19,9 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 ---
 <h3>Initial Resources to Download</h3>
    
-[img001]<br>
-[img002]<br>
+![001](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/ede505b1-37f5-482e-8f47-863ee5c2c0fa)
+![002](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/a0c91722-7064-4663-9fe8-b2ccd57ff33d)
+
 
 <h3>Setup Ubuntu Server VM</h3>
 
