@@ -8,7 +8,7 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 3. Setup Windows VM<br>
 4. Install LimaCharlie EDR on Windows<br>
 5. Setup Attack System<br>
-***<br>
+ *** <br>
 1. Initial Resources to Download
 
 
