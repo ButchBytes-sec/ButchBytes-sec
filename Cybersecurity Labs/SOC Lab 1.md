@@ -5,7 +5,7 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 ---
 
 <h3>Table of Contents</h3>
-1. Initial Resources to Download<br>
+1. [Initial Resources to Download](#part-01)<br>
 2. Setup Ubuntu Server VM<br>
 3. Setup Windows VM<br>
 4. Install LimaCharlie EDR on Windows<br>
@@ -37,4 +37,5 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 [img022]<br>
 [img023]<br>
 [img024]<br>
-### 01-jump
+
+<h3>Part-01</h3>
