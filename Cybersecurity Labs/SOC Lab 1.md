@@ -35,14 +35,20 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 [img011]<br>
 [img012]<br>
 [img013]<br>
+
+<h3>3. Setup Windows VM</h3>
 [img014]<br>
 [img015]<br>
 [img016]<br>
 [img017]<br>
 [img018]<br>
+
+<h3>Install LimaCharlie EDR on Windows</h3>
 [img019]<br>
 [img020]<br>
 [img021]<br>
 [img022]<br>
 [img023]<br>
 [img024]<br>
+
+<h3>Setup Attack System</h3>
