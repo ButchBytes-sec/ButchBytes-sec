@@ -63,14 +63,14 @@
 
 <h2>🎯 SOC Core Skills</h2>
 
-- [Endpoint Analysis](https://www.youtube.com/watch?v=Lhol4rZo_ts)
-- [Crisis Management](https://www.youtube.com/watch?v=Lhol4rZo_ts)
-- [Endpoint Security Protection Analysis](https://www.youtube.com/watch?v=Lhol4rZo_ts)
-- [NetFlow, Zeek/Bro, Real Intelligence Threat Analytics (RITA) Analysis](https://www.youtube.com/watch?v=Lhol4rZo_ts)
-- [User and Entity Behavior Analytics (UEBA)](https://www.youtube.com/watch?v=Lhol4rZo_ts)
-- [Isolation](https://www.youtube.com/watch?v=Lhol4rZo_ts)
-- [Server Analysis](https://www.youtube.com/watch?v=Lhol4rZo_ts)
-- [Internal Segmentation](https://www.youtube.com/watch?v=Lhol4rZo_ts)
+- [Endpoint Analysis]
+- [Crisis Management]
+- [Endpoint Security Protection Analysis]
+- [NetFlow, Zeek/Bro, Real Intelligence Threat Analytics (RITA) Analysis]
+- [User and Entity Behavior Analytics (UEBA)]
+- [Isolation])
+- [Server Analysis]
+- [Internal Segmentation]
 
 <h2> 🤳 Connect with me:</h2>
 
