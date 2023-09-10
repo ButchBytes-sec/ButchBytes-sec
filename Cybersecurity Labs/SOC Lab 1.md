@@ -43,7 +43,7 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 [img017]<br>
 [img018]<br>
 
-<h3>Install LimaCharlie EDR on Windows</h3>
+<h3>4. Install LimaCharlie EDR on Windows</h3>
 [img019]<br>
 [img020]<br>
 [img021]<br>
@@ -51,4 +51,4 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 [img023]<br>
 [img024]<br>
 
-<h3>Setup Attack System</h3>
+<h3>5. Setup Attack System</h3>
