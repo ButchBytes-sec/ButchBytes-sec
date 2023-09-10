@@ -66,20 +66,23 @@ Disable Defender on Wwndows VM<br>
 3. Permanently Disable Defender via Registry: run this in cmd - `REG ADD "hklm\software\policies\microsoft\windows defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f`
 4. Prepare to boot into Safe Mode to disable all Defender services: “Start” > run “msconfig” in search > “Boot” > “Boot Options” > Check the box for “Safe boot” and “Minimal” > Click “Apply” and “OK” > System will restart into Safe Mode.
 5. In Safe Mode, we’ll disable some services via the Registry: “Start” > run “regedit” in search bar > For each of the following registry locations, browse the key and find the “Start” value, and change it to 4. Once done, leave safe mode, same as step 4.
+![016](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/1cdb5d6f-d926-461d-94c2-1049620c961b)
     1. `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Sense`
     2. `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdBoot`
     3. `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend`
     4. `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdNisDrv`
     5. `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdNisSvc`
     6. `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdFilter`
-![016](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/1cdb5d6f-d926-461d-94c2-1049620c961b)
+       
 Prevent the VM from going into standby<br>
+
     1. powercfg /change standby-timeout-ac 0
     2. powercfg /change standby-timeout-dc 0
     3. powercfg /change monitor-timeout-ac 0
     4. powercfg /change monitor-timeout-dc 0
     5. powercfg /change hibernate-timeout-ac 0
     6. powercfg /change hibernate-timeout-dc 0
+<br>
 Install Sysmon in Windows VM (Optional)<br>
 While not a direct requirement for this guide, Sysmon can be an invaluable analyst tool for obtaining highly detailed telemetry from your Windows endpoint, providing insights into a wide range of intriguing activities. I strongly encourage its adoption, if only for the sake of becoming familiar with its capabilities.<br>
     1. Administrative PowerShell > type: “`Invoke-WebRequest -Uri https://download.sysinternals.com/files/Sysmon.zip -OutFile C:\Windows\Temp\Sysmon.zip`" > unzip: “`Expand-Archive -LiteralPath C:\Windows\Temp\Sysmon.zip -DestinationPath C:\Windows\Temp\Sysmon`"
