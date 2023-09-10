@@ -122,9 +122,30 @@ LimaCharlie is a relatively new, very powerful “Security Infrastructure as a 
         2. Platforms: `Windows`
         3. Path Pattern: `wel://Microsoft-Windows-Sysmon/Operational:*`
         4. Retention Period: `10`
-        5. Click “Save Rule”
+        5. Click “Save Rule”<br>
+        
 ![024](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/7fab9652-91a3-4e38-a95a-f0dd97bb89eb)
+
    3. LimaCharlie will now start shipping Sysmon logs which provide a wealth of EDR-like telemetry, some of which is redundant to LC’s own telemetry, but Sysmon is still a very power visibility tool that runs well alongside any EDR agent.
       1. The other reason we are ingesting Sysmon logs is that the built-in Sigma rules we previously enabled largely depend on Sysmon logs as that is what most of them were written for.
          
 <h3>Setup Attack System</h3>
+
+1. We’ll SSH to access Linux VM >`ssh user@192.168.159.131` > `sudo su`
+2. Run the following commands to download [Sliver](https://github.com/BishopFox/sliver/wiki), a Command & Control (C2) framework by BishopFox. I recommend copy/pasting the entire block as there is line-wrapping occurring.
+    
+    ```
+    # Download Sliver Linux server binary
+    wget https://github.com/BishopFox/sliver/releases/download/v1.5.34/sliver-server_linux -O /usr/local/bin/sliver-server
+    # Make it executable
+    chmod +x /usr/local/bin/sliver-server
+    # install mingw-w64 for additional capabilities
+    apt install -y mingw-w64
+    ```
+    
+3. Now let’s create a working directory we’ll use in future steps
+    
+    ```
+    # Create our future working directory
+    mkdir -p /opt/sliver
+    ```
