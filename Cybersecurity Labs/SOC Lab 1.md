@@ -297,10 +297,10 @@ Notice that Sliver cleverly highlights its own process in green and any detected
 
 ---
 <h3>Observe EDR Telemetry So Far</h3>
-1. Let’s hop into the [LimaCharlie web UI](https://app.limacharlie.io/) and check out some basic features.
-    a. Click “Sensors” on left menu
-    b. Click your active Windows sensor
-    c. On the new left-side menu for this sensor, click Processes
+1. Let’s hop into the [LimaCharlie web UI](https://app.limacharlie.io/) and check out some basic features.<br>
+    a. Click “Sensors” on left menu<br>
+    b. Click your active Windows sensor<br>
+    c. On the new left-side menu for this sensor, click Processes<br>
 ![034](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/d000434e-757b-4000-9132-8da18a1b63aa)<br>
 ![035](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/ba6bcb4c-b2cb-4baf-9ee6-57a2c97ed23b)<br>
 
