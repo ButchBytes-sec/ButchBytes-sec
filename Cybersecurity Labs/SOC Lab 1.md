@@ -410,8 +410,23 @@ Spend more time exploring LimaCharlie telemetry to familiarize yourself not only
 ---
 <h3>Blocking Attacks</h3>
 
+So in previously, we learned that we can craft our own detection rules to identify the moment a threat unfolds on our Windows system, but wouldn’t it be great if we could block the threat rather than just generate an alert?<br><br>
+
+Now let me first say, it’s critical that anytime you are writing a blocking rule that you properly baseline the environment for false positives else you could possibly cause some real problems in your environment. Baselining is another skillset any SOC analyst must master, and it can take time and diligence to do it right. Generally what this looks like is crafting an alert-only detection rule, letting it run for days or weeks, tuning it to eliminate all false positives, and then deploying the blocking version of that rule.<br><br>
+
+Let’s skip to the fun part by crafting a rule that would be very effective at disrupting a ransomware attack by looking for a predictable action that ransomware tends to take: deletion of volume shadow copies.<br><br>
 ---
 <h3>Why This Rule</h3>
+
+Volume Shadow Copies provide a convenient way to restore individual files or even an entire file system to a previous state which makes it a very attractive option for recovering from a ransomware attack. For this reason, it’s become very predictable that one of the first signs of an impending ransomware attack is the [deletion of volume shadow copies](https://redcanary.com/blog/its-all-fun-and-games-until-ransomware-deletes-the-shadow-copies/).<br><br>
+
+A basic command that would accomplish this (there are also other ways, but let’s keep it simple)<br>
+
+```
+vssadmin delete shadows /all
+```
+
+This command is not one that will be run often (if ever) in healthy environments (but baselining is still crucial as some back ups software and other applications may do funny stuff like this on occasion).<br><br>
 
 ---
 <h3>Let us Detect It</h3>
