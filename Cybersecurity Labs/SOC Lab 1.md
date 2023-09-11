@@ -503,9 +503,9 @@ Now return to your Sliver C2 session, and rerun the command and see what happens
     a. If our D&R rule worked successfully, the system shell will hang and fail to return anything from the `whoami` command, because the parent process was terminated.<br>
     b. This is effective because in a real ransomware scenario, the parent process is likely the ransomware payload or lateral movement tool that would be terminated in this case.<br>
 
-![059.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fb0c923e-eab4-4c09-a256-2c5c179e9aea/951d773b-ae31-4f7f-b492-982147e748bb/059.png)<br>
+![059](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/6d8bec4f-457e-4901-826c-cb700629c0e4)<br>
 
-4. Terminate your (now dead) system shell by pressing `Ctrl + D`<br>
+3. Terminate your (now dead) system shell by pressing `Ctrl + D`<br>
 
 
 
