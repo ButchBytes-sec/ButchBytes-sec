@@ -410,7 +410,7 @@ Spend more time exploring LimaCharlie telemetry to familiarize yourself not only
 ---
 <h3>Blocking Attacks</h3>
 
-So in previously, we learned that we can craft our own detection rules to identify the moment a threat unfolds on our Windows system, but wouldn’t it be great if we could block the threat rather than just generate an alert?<br>
+Previously, we learned that we can craft our own detection rules to identify the moment a threat unfolds on our Windows system, but wouldn’t it be great if we could block the threat rather than just generate an alert?<br>
 
 Now let me first say, it’s critical that anytime you are writing a blocking rule that you properly baseline the environment for false positives else you could possibly cause some real problems in your environment. Baselining is another skillset any SOC analyst must master, and it can take time and diligence to do it right. Generally what this looks like is crafting an alert-only detection rule, letting it run for days or weeks, tuning it to eliminate all false positives, and then deploying the blocking version of that rule.<br>
 
@@ -431,6 +431,58 @@ This command is not one that will be run often (if ever) in healthy environments
 
 ---
 <h3>Let us Detect It</h3>
+
+Fire up your Linux and Windows VMs we previously setup and get back into a Sliver C2 shell.<br><br>
+
+1. Get back onto an SSH session on the Linux VM, and drop into a C2 session on your victim.<br>
+    a. Retrace your steps from Part 2 if need be.<br>
+    b. If you have issues reestablishing your HTTP listener, try rebooting your Ubuntu system<br>
+2. In your Sliver C2 shell on the victim, run the basic command we’re looking to detect and block.<br>
+    
+    ```
+    shell
+    ```
+    - When prompted with “This action is bad OPSEC, are you an adult?” type Y and hit enter.
+    ![051](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/2fd706a5-b80e-4a21-ab92-34421f4f0d31)<br>
+
+3. In the new System shell, run the following command<br>
+    
+    ```
+    vssadmin delete shadows /all
+    ```
+    
+   - The output is not important as there may or not be Volume Shadow Copies available on the VM to be deleted, but running the command is sufficient to generate the telemetry we need.<br>
+   - 
+4. Run the whoami command to verify we still have an active system shell<br>
+![052](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/1c53c0b5-c390-4fe4-8b64-efda48f67935)<br>
+
+5. Browse over to LimaCharlie’s detection tab to see if default Sigma rules picked up on our shenanigans.<br>
+![053](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/312212e3-d30d-46f4-b860-1652a84efa68)<br>
+
+6. Click to expand the detection and examine all of the metadata contained within the detection itself. One of the great things about Sigma rules is they are enriched with references to help you understand why the detection exists in the first place.<br>
+![054](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/63403c75-2185-44e5-b0b7-3f20346715f6)<br>
+
+7. One of the reference URLs contains a [YARA signature](https://github.com/Neo23x0/Raccine/blob/20a569fa21625086433dcce8bb2765d0ea08dcb6/yara/gen_ransomware_command_lines.yar) written by Florian Roth that contains several more possible command lines that we’d want to consider in a very robust detection rule.<br>
+8. View the offending event in the Timeline to see the raw event that generated this detection.<br>
+![055](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/7a8ff6ae-2a47-4815-94bd-856032a6cac4)<br>
+![056](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/d837bb10-f651-4dd7-a248-f9a51caa75ff)<br>
+
+9. Craft a Detection & Response (D&R) rule from this event<br>
+![057](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/d08ffdfc-ecd5-414b-a254-ec1ea68e7477)<br>
+
+10. From this D&R rule template, we can begin crafting our response action that will take place when this activity is observed.<br>
+    a. Add the following Response rule to the Respond section<br>
+        
+        - action: report
+          name: vss_deletion_kill_it
+        - action: task
+          command:
+            - deny_tree
+            - <<routing/parent>>
+        
+    b. The “action: report” section simply fires off a Detection report to the “Detections” tab<br>
+    c. The “action: [task](https://doc.limacharlie.io/docs/documentation/b43d922abb409-reference-actions#task)” section is what is responsible for killing the parent process responsible with [deny_tree](https://doc.limacharlie.io/docs/documentation/819e855933d6c-reference-commands#deny_tree) for the `vssadmin delete shadows /all` command.<br>
+
 
 ---
 <h3>Let us Block It</h3>
