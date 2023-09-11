@@ -305,11 +305,36 @@ Notice that Sliver cleverly highlights its own process in green and any detected
 ![034](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/d000434e-757b-4000-9132-8da18a1b63aa)<br>
 ![035](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/ba6bcb4c-b2cb-4baf-9ee6-57a2c97ed23b)<br>
 
+    1. Spend a few minutes exploring what is returned in the process tree. Hover over some of the icons to see what they represent.<br>
+        a. I can’t stress enough how important it is for an analyst to have familiarity with the most common processes you’ll encounter on even a healthy system. As we say at SANS, “you must know normal before you can find evil.” For some helpful resources in “knowing normal”, check out the “[Hunt Evil](https://www.sans.org/posters/hunt-evil/)” poster from SANS and sign up for a free account at [EchoTrail](https://www.echotrail.io/).<br>
+        b. A process carrying a valid signature (Signed) is often (almost always) going to be benign itself. However, even legitimate signed processes can be used to launch malicious processes/code (read up on [LOLBINs](https://lolbas-project.github.io/#)).<br>
+        c. One of the easiest ways to spot unusual processes is to simply look for ones that are NOT signed.<br>
+        ![036](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/9f0e5a1b-9870-4caa-ba13-235c0fd75f4b)<br>
+        d. In my example, my C2 implant shows as not signed, and is also active on the network<br>
+        ![037](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/b6b68d57-1c0a-4d23-9702-31800372abd3)<br>
+        e. Notice how quickly we are able to identify the destination IP this process is communicating with.<br>
+    d. Now click the “Network” tab on the left-side menu<br>
+    ![038](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/fbaa7f05-8d20-4118-8451-d5035e00592c)<br>
+    e. Now click the “File System” tab on the left-side menu<br>
+    ![039](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/261af492-6588-4d3c-a839-638795f34041)<br>
+       I. Browse to the location we know our implant to be running from. > C:\Users\User\Downloads<br>
+       II. Inspect the hash of the suspicious executable by scanning it with VirusTotal.<br>
+![040](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/40652b20-165f-4683-8f7a-07dd78b68b32)<br>
+![041](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/e8c8aca8-c0a8-468b-be35-29bc9d5b4b75)<br>
+       III. Pro Tip: While it says “Scan with VirusTotal,” what it’s actually doing is querying VirusTotal for the hash of the EXE. If the file is a common/well-known malware sample, you will know it right away. However, “Item not found” on VT does not mean that this file is innocent, just that it’s never been seen before by VirusTotal. This makes sense because we just generated this payload ourselves, so of course it’s not likely to be seen by VirusTotal before. This is an important lesson for any analyst to learn — if you already suspect a file to be possible malware, but VirusTotal has never seen it before, trust your gut. This actually makes a file even more suspicious because nearly everything has been seen by VirusTotal, so your sample may have been custom-crafted/targeted which ups the ante a bit. In a mature SOC, this would likely affect the TLP of the IOC and/or case itself.<br>
+   f. Click “Timeline” on the left-side menu of our sensor. This is a near real-time view of EDR telemetry + event logs streaming from this system.<br>
+![042](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/082eb99b-94ff-477b-ae00-4730e19cb83f)<br>
+        1. Read about the various EDR events in the [LimaCharlie docs]<br>(https://doc.limacharlie.io/docs/documentation/5e1d6b66e38e0-windows-sensor#supported-events).<br>
+        2. Practice filtering your timeline with known IOCs (indicators of compromise) such as the name of your implant or the known C2 IP address<br>
+            I. If you scroll back far enough, should be able to find the moment your implant was created on the system, and when it was launched shortly after, and the network connections it created immediately after.<br>
+           ![043](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/3f5daaa6-5370-41d0-b111-a6b26a94bf39)<br>
+            II. Examine the other events related to your implant process, you’ll see it is responsible for other events such as “SENSITIVE_PROCESS_ACCESS” from when we enumerated our privileges in an earlier step. This particular event will be useful later on when we craft our first detection rule.<br>
+
+Spend more time exploring LimaCharlie telemetry to familiarize yourself not only with the known-bad events, but also the abundance of “normal” things happening on your “idle” Windows VM… Even clean systems are very noisy, so familiarizing yourself with that noise will pay dividends in your career as an analyst.<br>
 
 
 
-
-    
+      
 ---
 <h3>Let us Get Adversarial</h3>
 
