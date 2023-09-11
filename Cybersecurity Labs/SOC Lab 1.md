@@ -30,7 +30,7 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 2. Download and deploy a free Windows VM directly from Microsoft.
 ![002](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/a0c91722-7064-4663-9fe8-b2ccd57ff33d)
 
-
+---
 <h3>Setup Ubuntu Server VM</h3>
 
 1. Download and install [Ubuntu Server 22.04.1](https://releases.ubuntu.com/22.04.1/ubuntu-22.04.1-live-server-amd64.iso) into a new VM with the following specs:
@@ -59,6 +59,7 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 ![012](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/b08190cd-4c16-4b33-8d8a-4ed8a9a491a9)
 ![013](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/8655b6dc-8d8f-496b-a241-bf508aea3354)
 
+---
 <h3>Setup Windows VM</h3>
 
 Initiate Windows VM<br>
@@ -104,6 +105,7 @@ While not a direct requirement for this guide, Sysmon can be an invaluable analy
 ![017](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/2ce65e8c-b293-4c22-96bd-fbb07c9fecda)
 ![018](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/5d271d32-6f25-4ec3-9bd9-41aa2f404f81)
 
+---
 <h3>Install LimaCharlie EDR on Windows</h3>
 
 LimaCharlie is a relatively new, very powerful “Security Infrastructure as a Service” platform. It not only comes with a cross-platform EDR agent, but also handles all of the log shipping/ingestion and has a threat detection engine.<br>
@@ -138,7 +140,8 @@ LimaCharlie is a relatively new, very powerful “Security Infrastructure as a 
 
    3. LimaCharlie will now start shipping Sysmon logs which provide a wealth of EDR-like telemetry, some of which is redundant to LC’s own telemetry, but Sysmon is still a very power visibility tool that runs well alongside any EDR agent.
       a. The other reason we are ingesting Sysmon logs is that the built-in Sigma rules we previously enabled largely depend on Sysmon logs as that is what most of them were written for.
-         
+
+---
 <h3>Setup Attack System</h3>
 
 1. We’ll SSH to access Linux VM >`ssh user@192.168.159.131` > `sudo su`
@@ -292,6 +295,7 @@ Notice that Sliver cleverly highlights its own process in green and any detected
 ![032](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/004a57ab-6b91-4e0c-8e41-ab0045195c2a)<br>
 ![033](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/25f4125d-a60d-4976-9565-7e272936509b)<br>
 
+---
 
 
 
