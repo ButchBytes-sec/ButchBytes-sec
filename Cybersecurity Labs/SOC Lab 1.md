@@ -11,6 +11,16 @@ _This lab was inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capu
 3. [Setup Windows VM](#setup-windows-vm)
 4. [Install LimaCharlie EDR on Windows](#install-limacharlie-edr-on-windows)
 5. [Setup Attack System](#setup-attack-system)
+6. [Generate Our Command and Control Payload](#generate-our-command-and-control-payload)
+7. [Start Command and Control Session](#start-command-and-control-session)
+8. [Observe EDR Telemetry So Far](#observe-edr-telemetry-so-far)
+9. [Let us Get Adversarial](#let-us-get-adversarial)
+10. [Now Let us Detect It](#now-let-us-detect-it)
+11. [Let us Be Bad Again Now with Detections](#let-us-be-bad-again-now-with-detections)
+12. [Blocking Attacks](#blocking-attacks)
+13. [Why This Rule](#why-this-rule)
+14. [Let us Detect It](#let-us-detect-it)
+15. [Let us Block It](#let-us-block-it)
 
 ---
 <h3>Initial Resources to Download</h3>
@@ -149,3 +159,14 @@ LimaCharlie is a relatively new, very powerful “Security Infrastructure as a 
     # Create our future working directory
     mkdir -p /opt/sliver
     ```
+<h3>Generate Our Command and Control Payload</h3>
+<h3>Start Command and Control Session</h3>
+<h3>Observe EDR Telemetry So Far</h3>
+<h3>Let us Get Adversarial</h3>
+<h3>Now Let us Detect It</h3>
+<h3>Let us Be Bad Again Now with Detections</h3>
+<h3>Blocking Attacks</h3>
+<h3>Why This Rule</h3>
+<h3>Let us Detect It</h3>
+<h3>Let us Block It</h3>
+
