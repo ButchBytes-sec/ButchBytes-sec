@@ -280,19 +280,17 @@ pwd
 ```
 netstat
 ```
-
-    1. Notice that Sliver cleverly highlights its own process in green.
-    2. `rphcp.exe` is the LimaCharlie EDR service executable
-
-    e. Identify running processes on the remote system
-
 ```
 ps -T
 ```
+   1. Notice that Sliver cleverly highlights its own process in green.
+   2. `rphcp.exe` is the LimaCharlie EDR service executable
+
+d. Identify running processes on the remote system
 
 Notice that Sliver cleverly highlights its own process in green and any detected countermeasures (defensive tools) in red.<br>
-![032](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/004a57ab-6b91-4e0c-8e41-ab0045195c2a)
-![033](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/25f4125d-a60d-4976-9565-7e272936509b)
+![032](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/004a57ab-6b91-4e0c-8e41-ab0045195c2a)<br>
+![033](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/25f4125d-a60d-4976-9565-7e272936509b)<br>
 
 
 
