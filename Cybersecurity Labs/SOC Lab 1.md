@@ -70,7 +70,7 @@ Initiate Windows VM<br>
     1. It will automatically log you in as “user”.
     2. Wait for the desktop to appear.
 
-Disable Defender on Wwndows VM<br>
+Disable Defender on Windows VM<br>
 1. Disable Tamper Protection: “Start” > “Settings” > “Privacy & security” > “Windows Security” > “Virus & threat protection” > “Virus & threat protection settings” , click “Manage settings” > Toggle OFF the “Tamper Protection” switch, When prompted, click “Yes”
 ![015](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/3a3bd142-67c8-46bf-a3c1-74568e7ea0d9)
 2. Permanently Disable Defender via Group Policy Editor: “Start”> Type “cmd” in the search bar > Run as administrator > Type and run “gpedit.msc” > Double-click “Turn off Microsoft Defender Antivirus”, select “Enabled” > Apply > OK
