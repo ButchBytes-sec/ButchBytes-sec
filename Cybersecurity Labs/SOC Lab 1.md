@@ -432,7 +432,7 @@ This command is not one that will be run often (if ever) in healthy environments
 ---
 <h3>Let us Detect It</h3>
 
-Fire up your Linux and Windows VMs we previously setup and get back into a Sliver C2 shell.<br><br>
+Fire up your Linux and Windows VMs we previously setup and get back into a Sliver C2 shell.<br>
 
 1. Get back onto an SSH session on the Linux VM, and drop into a C2 session on your victim.<br>
     a. Retrace your steps from Part 2 if need be.<br>
@@ -487,5 +487,27 @@ Fire up your Linux and Windows VMs we previously setup and get back into a Slive
 ---
 <h3>Let us Block It</h3>
 
+Now return to your Sliver C2 session, and rerun the command and see what happens.<br>
 
+1. Run the command to delete volume shadows.<br>
+    
+    ```
+    vssadmin delete shadows /all
+    ```
+    
+    The command should succeed, but the action of running the command is what will trigger our D&R rule<br>
+    ![058](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/06343f60-340e-4b16-bef3-b97762e3fa10)<br>
+
+2. Now, to test if our D&R rule properly terminated the parent process, check to see if you still have an active system shell by rerunning the `whoami` command<br>
+    
+    a. If our D&R rule worked successfully, the system shell will hang and fail to return anything from the `whoami` command, because the parent process was terminated.<br>
+    b. This is effective because in a real ransomware scenario, the parent process is likely the ransomware payload or lateral movement tool that would be terminated in this case.<br>
+
+![059.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fb0c923e-eab4-4c09-a256-2c5c179e9aea/951d773b-ae31-4f7f-b492-982147e748bb/059.png)<br>
+
+4. Terminate your (now dead) system shell by pressing `Ctrl + D`<br>
+
+
+
+   
 
