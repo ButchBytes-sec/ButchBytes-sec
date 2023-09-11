@@ -379,10 +379,8 @@ Spend more time exploring LimaCharlie telemetry to familiarize yourself not only
 
    III. In the “Respond” section of the new rule, remove all contents and replace them with this:<br>
    
-       ```
         - action: report
           name: LSASS access
-       ```
    
    We’re telling LimaCharlie to simply generate a detection “report” anytime this detection occurs. For more advanced response capabilities, check out the docs. We could ultimately tell this rule to do all sorts of things, like terminate the offending process chain, etc. Let’s keep it simple for now.<br>
 
