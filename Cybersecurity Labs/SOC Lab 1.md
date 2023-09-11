@@ -397,6 +397,17 @@ Spend more time exploring LimaCharlie telemetry to familiarize yourself not only
 ---
 <h3>Let us Be Bad Again Now with Detections</h3>
 
+1. Return to your Sliver server console, back into your C2 session, and rerun our same `procdump` command from the beginning of this post
+    - If at some point your C2 session dies, just relaunch your malware with the steps in Part 2
+2. After rerunning the `procdump` command, go to the “Detections” tab on the LimaCharlie main left-side menu.
+    a. If you are still in the context of your sensor, click “Back to Sensors” at the top of the menu, then you will see the “Detections” option.
+    ![049](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/4c02b929-bde3-4646-adaf-f25ad2489e66)
+    b. You’ve just detected a threat with your own detection signature! Expand a detection to see the raw event
+    ![050](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/9516bd7a-8b1a-4b18-9d61-d99d28f479ce)
+    c. Notice you can also go straight to the timeline where this event occurred by clicking “View Event Timeline” from the Detection entry.
+
+
+  
 ---
 <h3>Blocking Attacks</h3>
 
