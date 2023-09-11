@@ -338,8 +338,63 @@ Spend more time exploring LimaCharlie telemetry to familiarize yourself not only
 ---
 <h3>Let us Get Adversarial</h3>
 
+1. Get back onto an SSH session on the Linux VM, and drop into a C2 session on your victim.<br>
+    a. Retrace your steps from Part 2 if need be.<br>
+2. Run the following commands within the Sliver session on your victim host<br>
+    a. First, we need to check our privileges to make sure we can perform privileged actions on the host<br>
+        
+        ```
+        getprivs
+        ```
+    b. Next, let’s do something adversaries love to do for stealing credentials on a system — dump the `lsass.exe` process from memory. Read more about this technique [here](https://www.microsoft.com/en-us/security/blog/2022/10/05/detecting-and-preventing-lsass-credential-dumping-attacks/).<br>
+        
+        ```
+        procdump -n lsass.exe -s lsass.dmp
+        ```
+   
+    I. This will dump the remote process from memory, and save it locally on your Sliver C2 server. We are not going to further process the lsass dump, but I’ll leave it as an exercise for the reader if you want to [try your hand](https://xapax.github.io/security/#attacking_active_directory_domain/active_directory_privilege_escalation/credential_extraction/#mimikatzpypykatz) at it.<br>
+    II. NOTE: This will fail if you did not launch your C2 payload with admin rights on the Windows system. If it still fails for an unknown reason (RPC error, etc), don’t fret, it likely still generated the telemetry we needed. Move on and see if you can still detect the attempt.<br>
+
 ---
 <h3>Now Let us Detect It</h3>
+
+1. Now that we’ve done something adversarial, let’s switch over to [LimaCharlie](https://app.limacharlie.io/) to find the relevant telemetry
+    a. Since `lsass.exe` is a known sensitive process often targeted by credential dumping tools, any good EDR will generate events for this.<br>
+    b. Drill into the Timeline of your Windows VM sensor and use the “Event Type Filters” to filter for “`SENSITIVE_PROCESS_ACCESS`” events.<br>
+        I. There will likely be many of these, but pick any one of them as there isn’t much else on this system that will be legitimately accessing lsass.<br>
+       ![044](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/6fff5965-d800-4832-9c4d-2b53d6b35f0d)<br>
+
+    c. Now that we know what the event looks like when credential access occurred, we have what we need to craft a detection & response (D&R) rule that would alert anytime this activity occurs.<br>
+   I. Click the button in the screenshot to begin building a detection rule based on this event.<br>
+        ![045](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/1d9f0fb0-1e8a-4432-81b6-b8239de79d98)<br>
+   II. In the “Detect” section of the new rule, remove all contents and replace them with this:<br>
+        ```
+        event: SENSITIVE_PROCESS_ACCESS
+        op: ends with
+        path: event/*/TARGET/FILE_PATH
+        value: lsass.exe
+        ```
+            1. We’re specifying that this detection should only look at SENSITIVE_PROCESS_ACCESS events where the victim or target process ends with lsass.exe<br>
+                a. For posterity let me state, this rule would be very noisy and need further tuning in a production environment, but for the purpose of this learning exercise, simple is better.<br>
+
+   III. In the “Respond” section of the new rule, remove all contents and replace them with this:<br>
+   
+       ```
+        - action: report
+          name: LSASS access
+       ```
+   
+   We’re telling LimaCharlie to simply generate a detection “report” anytime this detection occurs. For more advanced response capabilities, check out the docs. We could ultimately tell this rule to do all sorts of things, like terminate the offending process chain, etc. Let’s keep it simple for now.<br>
+
+   IV. Now let’s test our rule against the event we built it for. Lucky for us, LimaCharlie carried over that event it provides a quick and easy way to test the D&R logic.<br>
+        1. Click “Target Event” below the D&R rule you just wrote.<br>
+        ![046](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/7ca71ef5-52fe-4c50-8dd7-9ab25a0cabe1)<br>
+        2. Here you will see the raw event we observed in the timeline earlier.<br>
+        3. Scroll to the bottom of the raw event and click “Test Event” to see if our detection would work against this event.<br>
+        ![047](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/2bb37837-fa0c-4b05-9360-7a48df2b316c)<br>
+        4. Notice that we have a “Match” and the D&R engine tells you exactly what it matched on.<br>
+        5. Scroll back up and click “Save Rule” and give it the name “LSASS Accessed” and be sure it is enabled.<br>
+       ![048](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/67e8de86-5aab-4c55-a8a9-1aacb79572c4)<br>
 
 ---
 <h3>Let us Be Bad Again Now with Detections</h3>
