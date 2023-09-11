@@ -296,17 +296,28 @@ Notice that Sliver cleverly highlights its own process in green and any detected
 ![033](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/25f4125d-a60d-4976-9565-7e272936509b)<br>
 
 ---
-
-
-
-
-
 <h3>Observe EDR Telemetry So Far</h3>
+
+---
 <h3>Let us Get Adversarial</h3>
+
+---
 <h3>Now Let us Detect It</h3>
+
+---
 <h3>Let us Be Bad Again Now with Detections</h3>
+
+---
 <h3>Blocking Attacks</h3>
+
+---
 <h3>Why This Rule</h3>
+
+---
 <h3>Let us Detect It</h3>
+
+---
 <h3>Let us Block It</h3>
+
+
 
