@@ -9,7 +9,7 @@
 
 <h2>🔰 Google Cybersecurity Professional Activities for Portfolio:</h2>
 
-- [Foundations of Cybersecurity]
+- [Foundations of Cybersecurity] - ongoing
 - [Play It Safe: Manage Security Risks]
 - [Connect and Protect: Networks and Network Security]
 - [Tools of the Trade: Linux and SQL]
@@ -20,8 +20,8 @@
 
 <h2>🛡️ Security Blue Team Junior Analyst Notes:</h2>
 
-- [Network Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Network%20Analysis.md) - ongoing
-- [OSINT]
+- [Network Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Network%20Analysis.md)
+- [OSINT] - ongoing
 - [Digital Forensics]
 - [Dark Web Operations]
 - [Threat Hunting]
