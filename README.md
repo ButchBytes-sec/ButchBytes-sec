@@ -16,9 +16,9 @@
 - [Threat Hunting]
 - [Vulnerability Management]
 
-<h2>🔰 Google Cybersecurity Professional Activities for Portfolio:</h2>
+<h2>🔰 Google Cybersecurity Professional:</h2>
 
-- [Foundations of Cybersecurity] - ongoing
+- [Foundations of Cybersecurity](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Google%20Cybersecurity%20Professional/01%20Foundations%20of%20Cybersecurity.md)
 - [Play It Safe: Manage Security Risks]
 - [Connect and Protect: Networks and Network Security]
 - [Tools of the Trade: Linux and SQL]
