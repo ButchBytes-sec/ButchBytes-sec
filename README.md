@@ -7,7 +7,7 @@
 - [Home SOC Analyst Lab](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/SOC%20Lab%201.md)
 - [TryHackMe Rooms](https://github.com/ButchBytes-sec/TryHackMe)
 
-<h2>🛡️ Security Blue Team Junior Analyst Notes:</h2>
+<h2>🛡️ Security Blue Team Junior Analyst Capstone Projects:</h2>
 
 - [Network Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/tree/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Network%20Analysis)
 - [OSINT](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/OSINT/OSINT%20Course%20Capstone.md)
