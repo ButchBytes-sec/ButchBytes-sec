@@ -26,9 +26,11 @@ Clue: Twitter Handle: @sp1ritfyre<br>
 
 ![3](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/41b0cd63-fdc7-4c95-89ee-c7e7174602be)
 
-- This page provided a couple of clues, random numbers & letters and email link to the hacker’s email address.
+- This page provided 3 clues, random numbers & letters, email link to the hacker’s email address and blog post.
 
 ![4](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/b8d64e7b-2e90-4513-83ae-942a29946898)
+![13](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/c6f538e2-1da4-405f-a4c5-0f5eaee03d86)
+
 
 - Now, we’ll try to convert the random numbers and letters from hex to clear text and this is what we got:
 
@@ -67,12 +69,8 @@ Clue: Twitter Handle: @sp1ritfyre<br>
 7. Hacker's position within company: Junior Pen Tester
 8. Self-Owned Website (Hacker owns the domain): https://redhunt.net/
 9. Other Websites (Person does not own the domain, such as blogs): 
-    1. https://sammiewoodsec.blogspot.com/
-    2. https://sammiewoodsec.blogspot.com/2019/07/wow-my-blog-is-really-blowing-up-thanks.html
-    3. https://sammiewoodsec.blogspot.com/2019/06/made-my-own-simple-port-scanner.html
-    4. https://sammiewoodsec.blogspot.com/2019/06/how-i-got-into-cyber-security-hey.html
-    5. https://github.com/SammieWoodSec
-    6. https://github.com/SammieWoodSec/Disrupt0r
+    1. https://sp1ritfyrehackerstories.blogspot.com
+    2. https://sammiewoodsec.blogspot.com
 10. Email address of the Hacker: d1ved33p@gmail.com
 
 
