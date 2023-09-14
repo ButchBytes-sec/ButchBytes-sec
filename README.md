@@ -11,7 +11,7 @@
 
 - [SC-900: Microsoft Security, Compliance, and Identity](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/SC-900.md)
 
-<h2>🛡️ Security Blue Team Junior Analyst Certificates, Activities and Capstone Projects:</h2>
+<h2>🛡️ Security Blue Team Junior Analyst Activities and Capstone Projects:</h2>
 
 - [Network Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/tree/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Network%20Analysis)
 - [OSINT](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/OSINT/OSINT%20Course%20Capstone.md)
