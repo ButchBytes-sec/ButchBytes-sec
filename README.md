@@ -39,7 +39,7 @@
 <h2>👨‍💻 Programming Projects:</h2>
 
 - [Python]
-- [Shell Scripts]
+- [SQL]
 
 <h2>🧠 Cybersecurity Strategies, Standards, Frameworks & Concepts:</h2>
 
