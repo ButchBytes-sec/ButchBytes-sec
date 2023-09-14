@@ -22,11 +22,11 @@ Clue: Twitter Handle: @sp1ritfyre<br>
 
 ![2](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/ab38a0af-58ac-41f4-bc8a-f24991ff3d83)
 
-- Searched the hacker’s username:  Sp1ritfyre in a search engine and as a results, it provided a link to the hacker’s blog profile.
+- Searched the hacker’s username, Sp1ritfyre, in a search engine and as a results, it provided a link to the hacker’s blog profile.
 
 ![3](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/41b0cd63-fdc7-4c95-89ee-c7e7174602be)
 
-- This page provided a couple of clues, the a random numbers & letters and email link to the hacker’s email address.
+- This page provided a couple of clues, random numbers & letters and email link to the hacker’s email address.
 
 ![4](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/b8d64e7b-2e90-4513-83ae-942a29946898)
 
@@ -44,7 +44,7 @@ Clue: Twitter Handle: @sp1ritfyre<br>
 ![8](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/c11d3a8a-de3c-41a9-a621-7c3605364850)
 ![9](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/caa77746-57ff-4393-b2ab-09b0bd8dd0e6)
 
-- Now, we’ll go back to the hacker’s Twitter account to check the last clue, the website link: cmVkaHVudC5uZXQK.xyz. If we try to click the link as is, it will point us to an invalid website. We’ll convert this to base64 to text:
+- Now, we’ll go back to the hacker’s Twitter account to check the last clue, the website link: cmVkaHVudC5uZXQK.xyz. If we try to click the link as is, it will point us to an invalid website. We’ll convert this from base64 to text:
 
 ![10](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/9cdb1bf2-cffb-47de-b860-60a56343beea)
 
