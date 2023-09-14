@@ -71,6 +71,8 @@ Clue: Twitter Handle: @sp1ritfyre<br>
     2. https://sammiewoodsec.blogspot.com/2019/07/wow-my-blog-is-really-blowing-up-thanks.html
     3. https://sammiewoodsec.blogspot.com/2019/06/made-my-own-simple-port-scanner.html
     4. https://sammiewoodsec.blogspot.com/2019/06/how-i-got-into-cyber-security-hey.html
+    5. https://github.com/SammieWoodSec
+    6. https://github.com/SammieWoodSec/Disrupt0r
 10. Email address of the Hacker: d1ved33p@gmail.com
 
 
