@@ -21,7 +21,7 @@
 <h2>🛡️ Security Blue Team Junior Analyst Notes:</h2>
 
 - [Network Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/tree/main/Networking/Wireshark)
-- [OSINT] - ongoing
+- [OSINT](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/OSINT%20Course%20Capstone.md)
 - [Digital Forensics]
 - [Dark Web Operations]
 - [Threat Hunting]
