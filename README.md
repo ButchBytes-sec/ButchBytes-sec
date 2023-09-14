@@ -7,6 +7,10 @@
 - [Home SOC Analyst Lab](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/SOC%20Lab%201.md)
 - [TryHackMe Rooms](https://github.com/ButchBytes-sec/TryHackMe)
 
+<h2>📜 Professional Certificates:</h2>
+
+- [SC-900: Microsoft Security, Compliance, and Identity](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/SC-900.md)
+
 <h2>🛡️ Security Blue Team Junior Analyst Certificates, Activities and Capstone Projects:</h2>
 
 - [Network Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/tree/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Network%20Analysis)
@@ -26,11 +30,6 @@
 - [Sound the Alarm: Detection and Response]
 - [Automate Cybersecurity Tasks with Python]
 - [Put It to Work: Prepare for Cybersecurity Jobs]
-
-<h2>📜 Professional Certificates:</h2>
-
-- [SC-900: Microsoft Security, Compliance, and Identity](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/SC-900.md)
-
 
 <h2>🌐 Networking Projects:</h2>
 
