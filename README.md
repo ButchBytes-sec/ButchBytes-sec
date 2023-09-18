@@ -54,7 +54,7 @@
 - [Bring Your Own Vulnerable Driver (BYOVD) Attacks](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Bring%20Your%20Own%20Vulnerable%20Driver%20(BYOVD)%20Attacks.md)
 - [ARP Cache Poisoning](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/ARP%20Cache%20Poisoning.md)
 - [Credential Compartmentalization in Active Directory](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Credential%20Compartmentalization%20in%20Active%20Directory.md)
-- [Log File Analysis]
+- [Log File Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Log%20File%20Analysis.md)
 - [Security Blue Team Junior Analyst - Introduction to Network Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Certificates/Introduction%20to%20Network%20Analysis%20Certificate.md)
 - [Security Blue Team Junior Analyst - Introduction to OSINT](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Certificates/Introduction%20to%20OSINT%20Certificate.md)
 
