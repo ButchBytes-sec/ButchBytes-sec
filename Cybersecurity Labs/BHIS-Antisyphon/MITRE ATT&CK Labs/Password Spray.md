@@ -2,7 +2,7 @@
 
 ---
 
-**Tools, Techniques & Technologies used:** Windows, Powershell, cmd, Password Spray
+**Tools, Techniques & Technologies used:** Windows, Powershell, Powershell Script, cmd, Password Spray
 
 ---
 
