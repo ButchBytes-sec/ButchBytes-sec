@@ -7,9 +7,9 @@
 ---
 
 
-_A Password Spraying Attack is a form of brute force attack in which an attacker repeatedly tries the same password across multiple accounts before moving to the next one. This method is effective because many users utilize easily guessable passwords like "password123."
+_A Password Spraying Attack is a form of brute force attack in which an attacker repeatedly tries the same password across multiple accounts before moving to the next one. This method is effective because many users utilize easily guessable passwords like "password123."_
 
-Many organizations implement a security practice of locking out a user's account after a few consecutive failed login attempts, typically 3-5 tries within a short timeframe. However, due to the characteristic of password spraying attacks, malicious actors can evade detection and avoid being locked out of an account, distinguishing it from conventional brute force attacks._
+_Many organizations implement a security practice of locking out a user's account after a few consecutive failed login attempts, typically 3-5 tries within a short timeframe. However, due to the characteristic of password spraying attacks, malicious actors can evade detection and avoid being locked out of an account, distinguishing it from conventional brute force attacks._
 
 
 ---
