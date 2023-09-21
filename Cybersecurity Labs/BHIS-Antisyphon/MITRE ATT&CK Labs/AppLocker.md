@@ -10,9 +10,8 @@ _NOTE: All the procedures in this lab were created and learned from: [Getting St
 
 ---
 
-[Windows AppLocker](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/applocker/what-is-applocker) is a security feature in Windows that lets administrators control which applications and scripts can run on a computer or network by creating policies based on file attributes. It enhances security by allowing only authorized and trusted software to execute, reducing the risk of malware and unauthorized applications.<br>
+_[Windows AppLocker](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/applocker/what-is-applocker) is a security feature in Windows that lets administrators control which applications and scripts can run on a computer or network by creating policies based on file attributes. It enhances security by allowing only authorized and trusted software to execute, reducing the risk of malware and unauthorized applications.<br>_
 
----
 
 Let's examine the scenario when AppLocker isn't active. Our objective is to establish a basic backdoor that connects to the Ubuntu system. It's important to note that our goal is not to demonstrate evasion of EDR or Endpoint products but rather to create a straightforward backdoor connection.
 
