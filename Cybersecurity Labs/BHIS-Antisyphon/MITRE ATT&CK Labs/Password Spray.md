@@ -39,7 +39,7 @@ It should look like this:
 
 ![3](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/f2ab7411-4b0d-48cf-b165-089a76094b1f)
 
-Now, we will need to start PowerShell to run LocalPasswordSpray (Powershell script written by Beau Bullock
+Now, we will need to start PowerShell to run LocalPasswordSpray (Powershell script written by [Beau Bullock](https://www.linkedin.com/in/beaubullock))
 
 C:\Tools> `powershell`
 
