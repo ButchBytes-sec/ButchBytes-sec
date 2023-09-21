@@ -6,7 +6,7 @@
 
 - [Home SOC Analyst Lab](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/SOC%20Lab%201.md)
 - [AppLocker](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/BHIS-Antisyphon/MITRE%20ATT&CK%20Labs/AppLocker.md)
-- [Password Spray]
+- [Password Spray](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/BHIS-Antisyphon/MITRE%20ATT&CK%20Labs/Password%20Spray.md)
 - [TryHackMe Rooms](https://github.com/ButchBytes-sec/TryHackMe)
 
 <h2>📜 Professional Certificates:</h2>
