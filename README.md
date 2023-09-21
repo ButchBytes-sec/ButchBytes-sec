@@ -5,6 +5,7 @@
 <h2>🛡️ Cybersecurity Projects:</h2>
 
 - [Home SOC Analyst Lab](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/SOC%20Lab%201.md)
+- [AppLocker]
 - [TryHackMe Rooms](https://github.com/ButchBytes-sec/TryHackMe)
 
 <h2>📜 Professional Certificates:</h2>
