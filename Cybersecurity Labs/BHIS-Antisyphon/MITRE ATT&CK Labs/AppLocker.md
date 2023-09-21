@@ -4,7 +4,7 @@ _NOTE: All the procedures in this lab were created and learned from: [Getting St
 
 ---
 
-Tools/Technologies used: Windows, Linux, Powershell, cmd, Applocker and Metasploit
+Tools/Technologies used: Windows, Linux, Powershell, cmd, Applocker, Backdoor & Backdoor listener, and Metasploit
 
 ---
 
