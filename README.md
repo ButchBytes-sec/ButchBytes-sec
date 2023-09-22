@@ -42,13 +42,6 @@
 - [Python]
 - [SQL]
 
-<h2>🧠 Cybersecurity Strategies, Standards, Frameworks & Concepts:</h2>
-
-- [MITRE ATT&CK]
-- [Cyber Kill Chain]
-- [OWASP Top 10]
-- [OSINT]
-
 <h2>📒 Trainings Attended, Certifications and Notes:</h2>
 
 - [Antisyphon Blue Team Summit 2023](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Anti%20Syphon%20Blue%20Team%20Summit%202023.md)
