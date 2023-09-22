@@ -59,6 +59,7 @@
 - [Log File Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Log%20File%20Analysis.md)
 - [Security Blue Team Junior Analyst - Introduction to Network Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Certificates/Introduction%20to%20Network%20Analysis%20Certificate.md)
 - [Security Blue Team Junior Analyst - Introduction to OSINT](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Certificates/Introduction%20to%20OSINT%20Certificate.md)
+- [Getting Started in Security with BHIS and MITRE ATT&CK | John Strand]
 
 <h2>💻 Courses</h2>
 
