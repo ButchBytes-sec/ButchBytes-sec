@@ -9,6 +9,19 @@
 - [Password Spray](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/BHIS-Antisyphon/MITRE%20ATT&CK%20Labs/Password%20Spray.md)
 - [TryHackMe Rooms](https://github.com/ButchBytes-sec/TryHackMe)
 
+<h2>📒 Trainings Attended, Certifications and Notes:</h2>
+
+- [Antisyphon Blue Team Summit 2023](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Anti%20Syphon%20Blue%20Team%20Summit%202023.md)
+- [Exploring PowerShell Logging](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Exploring%20PowerShell%20Logging.md)
+- [Bring Your Own Vulnerable Driver (BYOVD) Attacks](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Bring%20Your%20Own%20Vulnerable%20Driver%20(BYOVD)%20Attacks.md)
+- [ARP Cache Poisoning](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/ARP%20Cache%20Poisoning.md)
+- [Credential Compartmentalization in Active Directory](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Credential%20Compartmentalization%20in%20Active%20Directory.md)
+- [Log File Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Log%20File%20Analysis.md)
+- [API-ocalypse Now](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/API-ocalypse%20Now.md)
+- [Security Blue Team Junior Analyst - Introduction to Network Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Certificates/Introduction%20to%20Network%20Analysis%20Certificate.md)
+- [Security Blue Team Junior Analyst - Introduction to OSINT](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Certificates/Introduction%20to%20OSINT%20Certificate.md)
+- [Getting Started in Security with BHIS and MITRE ATT&CK | John Strand](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Getting%20Started%20in%20Security%20with%20BHIS%20and%20MITRE%20ATT%26CK%20%7C%20John%20Strand.md)
+
 <h2>📜 Professional Certificates:</h2>
 
 - [SC-900: Microsoft Security, Compliance, and Identity](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/SC-900.md)
@@ -41,19 +54,6 @@
 
 - [Python]
 - [SQL]
-
-<h2>📒 Trainings Attended, Certifications and Notes:</h2>
-
-- [Antisyphon Blue Team Summit 2023](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Anti%20Syphon%20Blue%20Team%20Summit%202023.md)
-- [Exploring PowerShell Logging](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Exploring%20PowerShell%20Logging.md)
-- [Bring Your Own Vulnerable Driver (BYOVD) Attacks](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Bring%20Your%20Own%20Vulnerable%20Driver%20(BYOVD)%20Attacks.md)
-- [ARP Cache Poisoning](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/ARP%20Cache%20Poisoning.md)
-- [Credential Compartmentalization in Active Directory](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Credential%20Compartmentalization%20in%20Active%20Directory.md)
-- [Log File Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Log%20File%20Analysis.md)
-- [API-ocalypse Now](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/API-ocalypse%20Now.md)
-- [Security Blue Team Junior Analyst - Introduction to Network Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Certificates/Introduction%20to%20Network%20Analysis%20Certificate.md)
-- [Security Blue Team Junior Analyst - Introduction to OSINT](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Certificates/Introduction%20to%20OSINT%20Certificate.md)
-- [Getting Started in Security with BHIS and MITRE ATT&CK | John Strand](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Getting%20Started%20in%20Security%20with%20BHIS%20and%20MITRE%20ATT%26CK%20%7C%20John%20Strand.md)
 
 <h2>💻 Courses</h2>
 
