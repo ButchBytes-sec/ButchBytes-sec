@@ -47,7 +47,7 @@
 - [Automate Cybersecurity Tasks with Python]
 - [Put It to Work: Prepare for Cybersecurity Jobs]
 
-<h2>🌐 Networking Projects:</h2>
+<h2>🌐 System Administration Projects:</h2>
 
 - [Active Directory Homelab]
 
