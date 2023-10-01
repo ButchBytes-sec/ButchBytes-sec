@@ -22,6 +22,7 @@
 - [Security Blue Team Junior Analyst - Introduction to OSINT](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Certificates/Introduction%20to%20OSINT%20Certificate.md)
 - [Getting Started in Security with BHIS and MITRE ATT&CK | John Strand](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Getting%20Started%20in%20Security%20with%20BHIS%20and%20MITRE%20ATT%26CK%20%7C%20John%20Strand.md)
 - [Threat Hunting using Memory Forensics](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Threat%20Hunting%20DLL-injected%20C2%20Beacons%20using%20Memory%20Forensics.md)
+- Unveiling the Breach - A Security Analyst's Journey
 - [Infiltrating Kubernetes - Attacker Motives and Methods](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Infiltrating%20Kubernetes%20-%20Attacker%20Motives%20and%20Methods.md)
 - [Access Granted - Practical Physical](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Access%20Granted%20-%20Practical%20Physical.md)
 
