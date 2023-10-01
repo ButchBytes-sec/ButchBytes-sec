@@ -23,7 +23,7 @@
 - [Getting Started in Security with BHIS and MITRE ATT&CK | John Strand](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Getting%20Started%20in%20Security%20with%20BHIS%20and%20MITRE%20ATT%26CK%20%7C%20John%20Strand.md)
 - [Threat Hunting using Memory Forensics](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Threat%20Hunting%20DLL-injected%20C2%20Beacons%20using%20Memory%20Forensics.md)
 - [Infiltrating Kubernetes - Attacker Motives and Methods](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Infiltrating%20Kubernetes%20-%20Attacker%20Motives%20and%20Methods.md)
-- [Access Granted - Practical Physical]
+- [Access Granted - Practical Physical](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Access%20Granted%20-%20Practical%20Physical.md)
 
 <h2>📜 Professional Certificates:</h2>
 
