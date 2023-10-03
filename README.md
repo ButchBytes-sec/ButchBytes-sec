@@ -25,6 +25,7 @@
 - [Unveiling the Breach - A Security Analyst's Journey](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Unveiling%20the%20Breach%20-%20A%20Security%20Analysts%20Journey.md)
 - [Infiltrating Kubernetes - Attacker Motives and Methods](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Infiltrating%20Kubernetes%20-%20Attacker%20Motives%20and%20Methods.md)
 - [Access Granted - Practical Physical](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Access%20Granted%20-%20Practical%20Physical.md)
+- [Cyber Threat Hunting]
 
 <h2>📜 Professional Certificates:</h2>
 
