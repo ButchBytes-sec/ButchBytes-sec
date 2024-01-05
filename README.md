@@ -64,6 +64,7 @@
 
 - [OS](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Computing%20Basics/OS.md)
 - [CompTIA A+](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/CompTIA%20A+.md)
+- [ISC2 - Certified in Cybersecurity]()
 
 <h2>🎯 SOC Core Skills</h2>
 
