@@ -58,7 +58,7 @@
 <h2>👨‍💻 Programming Projects:</h2>
 
 - [Python]
-- [SQL]
+- [SQL](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Google%20Cybersecurity%20Professional/04%20SQL%20Activity.md)
 
 <h2>💻 Courses</h2>
 
