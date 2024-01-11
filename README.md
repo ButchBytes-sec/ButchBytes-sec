@@ -9,6 +9,10 @@
 - [Password Spray](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/BHIS-Antisyphon/MITRE%20ATT&CK%20Labs/Password%20Spray.md)
 - [TryHackMe Rooms](https://github.com/ButchBytes-sec/TryHackMe)
 
+<h2>📜 Professional Certificates:</h2>
+
+- [SC-900: Microsoft Security, Compliance, and Identity](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/SC-900.md)
+
 <h2>📒 Trainings Attended, Certifications and Notes:</h2>
 
 - [Antisyphon Blue Team Summit 2023](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Anti%20Syphon%20Blue%20Team%20Summit%202023.md)
@@ -27,19 +31,6 @@
 - [Access Granted - Practical Physical](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Access%20Granted%20-%20Practical%20Physical.md)
 - [Cyber Threat Hunting](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Cyber%20Threat%20Hunting%20Training.md)
 
-<h2>📜 Professional Certificates:</h2>
-
-- [SC-900: Microsoft Security, Compliance, and Identity](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/SC-900.md)
-
-<h2>🛡️ Security Blue Team Junior Analyst Activities and Capstone Projects:</h2>
-
-- [Network Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/tree/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Network%20Analysis)
-- [OSINT](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/OSINT/OSINT%20Course%20Capstone.md)
-- [Digital Forensics]
-- [Dark Web Operations]
-- [Threat Hunting]
-- [Vulnerability Management]
-
 <h2>🔰 Google Cybersecurity Professional:</h2>
 
 - [Foundations of Cybersecurity](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Google%20Cybersecurity%20Professional/01%20Foundations%20of%20Cybersecurity.md)
@@ -50,6 +41,15 @@
 - [Sound the Alarm: Detection and Response]
 - [Automate Cybersecurity Tasks with Python]
 - [Put It to Work: Prepare for Cybersecurity Jobs]
+
+<h2>🛡️ Security Blue Team Junior Analyst Activities and Capstone Projects:</h2>
+
+- [Network Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/tree/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Network%20Analysis)
+- [OSINT](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/OSINT/OSINT%20Course%20Capstone.md)
+- [Digital Forensics]
+- [Dark Web Operations]
+- [Threat Hunting]
+- [Vulnerability Management]
 
 <h2>🌐 System Administration Projects:</h2>
 
