@@ -45,7 +45,7 @@
 - [Foundations of Cybersecurity](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Google%20Cybersecurity%20Professional/01%20Foundations%20of%20Cybersecurity.md)
 - [Play It Safe: Manage Security Risks](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Google%20Cybersecurity%20Professional/02%20Play%20It%20Safe%20-%20Manage%20Security%20Risks.md)
 - [Connect and Protect: Networks and Network Security](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Google%20Cybersecurity%20Professional/03%20Connect%20and%20Protect%20-%20Networks%20and%20Network%20Security.md)
-- [Tools of the Trade: Linux and SQL]
+- [Tools of the Trade: Linux and SQL](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Google%20Cybersecurity%20Professional/04%20Tools%20of%20the%20Trade%20-%20Linux%20and%20SQL.md)
 - [Assets, Threats, and Vulnerabilities]
 - [Sound the Alarm: Detection and Response]
 - [Automate Cybersecurity Tasks with Python]
