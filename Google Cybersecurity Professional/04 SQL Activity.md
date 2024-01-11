@@ -1,3 +1,5 @@
+## Apply filters to SQL queries
+
 ### Summary
 In the context of enhancing system security, various SQL queries with filters were employed to investigate security incidents and obtain specific information about login attempts and employee machines. Two primary tables, log_in_attempts and employees, were utilized. Filters were implemented using the AND, OR, and NOT operators to cater to distinct requirements. Additionally, the LIKE operator, coupled with the percentage sign (%) wildcard, was employed for pattern-based filtering.
 
