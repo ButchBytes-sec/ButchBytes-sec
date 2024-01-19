@@ -1,6 +1,8 @@
-# Scenario
+# Google Cybersecurity Professional Wireshark Activity
 
 _Disclaimer: This Wireshark activity is based on one of the exercises I completed in the Google Cybersecurity Professional course on Coursera, using the provided Windows VM. Please note that this information is shared for educational purposes only._
+
+## Scenario
 
 In this scenario, you’re a security analyst investigating traffic to a website.
 
