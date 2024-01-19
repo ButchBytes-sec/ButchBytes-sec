@@ -1,4 +1,5 @@
 <h3>Password Spray</h3>
+
 ---
 
 _Disclaimer: The content, procedures, and materials presented in this lab are solely for educational purposes, and any information obtained is intended for the pursuit of education in cybersecurity. All procedures outlined in this lab were created and learned from the course [Getting Started in Security with BHIS and MITRE ATT&CK](https://www.antisyphontraining.com/event/getting-started-in-security-with-bhis-and-mitre-attck/2023-09-18/) taught by [John Strand](https://www.sans.org/profiles/john-strand/). It is emphasized that the knowledge gained here will not be used for any unauthorized or malicious activities._
