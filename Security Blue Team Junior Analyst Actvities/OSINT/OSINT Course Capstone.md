@@ -1,5 +1,7 @@
 <h2>OSINT Course Capstone</h2>
 
+_Disclaimer: The activities and information shared in relation to my pursuit of the Security Blue Team Junior Analyst Certification are intended solely for educational purposes. Any content or knowledge acquired during this certification attempt is not intended for malicious or unauthorized use. I strictly adhere to ethical standards and emphasize that this information is shared with the sole purpose of advancing my educational journey in cybersecurity._
+
 This is my attempt on the Security Blue Team Junior Activity OSINT Course Capstone.
 
 Here is the scenario:
