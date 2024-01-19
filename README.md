@@ -52,8 +52,9 @@
 - [Threat Hunting]
 - [Vulnerability Management]
 
-<h2>🌐 System Administration Projects:</h2>
+<h2>🌐 IT Projects:</h2>
 
+- [Wireshark]()
 - [Active Directory Homelab]
 
 <h2>👨‍💻 Programming Projects:</h2>
