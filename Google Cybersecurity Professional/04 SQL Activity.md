@@ -1,5 +1,7 @@
 ## Apply filters to SQL queries
 
+_Disclaimer: The content and materials shared in connection with my pursuit of the Google Cybersecurity Professional Certificate from Coursera are strictly for educational purposes. Any information acquired during this certification process is intended solely for the enhancement of my cybersecurity knowledge and skills. I affirm my commitment to ethical conduct and emphasize that this content will not be utilized for any unauthorized or malicious activities._
+
 ### Summary
 In the context of enhancing system security, various SQL queries with filters were employed to investigate security incidents and obtain specific information about login attempts and employee machines. Two primary tables, log_in_attempts and employees, were utilized. Filters were implemented using the AND, OR, and NOT operators to cater to distinct requirements. Additionally, the LIKE operator, coupled with the percentage sign (%) wildcard, was employed for pattern-based filtering.
 
