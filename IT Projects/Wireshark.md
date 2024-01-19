@@ -23,7 +23,8 @@ In this task, you must open a network packet capture file that contains data cap
 
 1. Open the packet capture file by double-clicking the file called sample on the Windows desktop. Wireshark starts.
 
-(img1)
+![01](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/94a7ec42-7ace-44a9-8a0c-b4143837ded6)
+
 
 The packet capture file has the Wireshark packet capture file icon, which shows a shark's fin swimming above three rows of binary digits. The packet capture file has a .pcap file extension that is hidden by default by Windows Explorer and on the desktop view.
 
@@ -45,7 +46,8 @@ Not all the data packets are the same color. Coloring rules are used to provide 
 
 3. Scroll down the packet list until a packet is listed where the info column starts with the words 'Echo (ping) request'.
 
-(img2)
+![02](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/60e77e32-d462-43df-aff5-5f0eb4989273)
+
 
 ### Task 2. Apply a basic Wireshark filter and inspect a packet
 
@@ -59,12 +61,14 @@ ip.addr == 142.250.1.139
 2. Press ENTER or click the Apply display filter icon in the filter text box.
 The list of packets displayed is now significantly reduced and contains only packets where either the source or the destination IP address matches the address you entered. Now only two packet colors are used: light pink for ICMP protocol packets and light green for TCP (and HTTP, which is a subset of TCP) packets.
 
-(img3)
+![03](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/7f67bd9b-b7aa-463b-859e-4434373e249a)
+
 
 3. Double-click the first packet that lists TCP as the protocol.
 This opens a packet details pane window:
 
-(img4)
+![04](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/f3fda544-a4c5-4e96-b814-5b0ddaec0167)
+
 
 The upper section of this window contains subtrees where Wireshark will provide you with an analysis of the various parts of the network packet. The lower section of the window contains the raw packet data displayed in hexadecimal and ASCII text. There is also placeholder text for fields where the character data does not apply, as indicated by the dot (“.”).
 
@@ -72,19 +76,22 @@ Note: The details pane is located at the bottom portion of the main Wireshark wi
 
 4. Double-click the first subtree in the upper section. This starts with the word Frame.
 
-(img05)
+![05](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/b9a24c5b-ef0c-418a-983c-9c76b5094364)
+
 
 This provides you with details about the overall network packet, or frame, including the frame length and the arrival time of the packet. At this level, you’re viewing information about the entire packet of data.
 
 5. Double-click Frame again to collapse the subtree and then double-click the Ethernet II subtree.
 
-(img06)
+![06](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/11afbee9-79ad-4413-ac0b-cc8a78ca5552)
+
 
 This item contains details about the packet at the Ethernet level, including the source and destination MAC addresses and the type of internal protocol that the Ethernet packet contains.
 
 6. Double-click Ethernet II again to collapse that subtree and then double-click the Internet Protocol Version 4 subtree.
 
-(img07)
+![07](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/6ec09d2f-4a03-4096-8379-eca40001910b)
+
 
 This provides packet data about the Internet Protocol (IP) data contained in the Ethernet packet. It contains information such as the source and destination IP addresses and the Internal Protocol (for example, TCP or UDP), which is carried inside the IP packet.
 
@@ -94,7 +101,8 @@ The source and destination IP addresses shown here match the source and destinat
 
 7. Double-click Internet Protocol Version 4 again to collapse that subtree and then double-click the Transmission Control Protocol subtree.
 
-(img08)
+![08](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/de3c73a7-74af-400a-9b70-90ecde518a41)
+
 
 This provides detailed information about the TCP packet, including the source and destination TCP ports, the TCP sequence numbers, and the TCP flags.
 
@@ -102,7 +110,8 @@ The source port and destination port listed here match the source and destinatio
 
 8. In the Transmission Control Protocol subtree, scroll down and double-click Flags.
 
-(img09)
+![09](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/f38a6a04-802b-4ec3-bdf2-8cb38ed96967)
+
 
 This provides a detailed view of the TCP flags set in this packet.
 
@@ -110,7 +119,8 @@ This provides a detailed view of the TCP flags set in this packet.
 
 10. Click the X Clear display filter icon in the Wireshark filter bar to clear the IP address filter.
 
-(img10)
+![10](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/ec8a63d2-11a6-48a0-98eb-f0734b501bfe)
+
 
 All the packets have returned to the display.
 
@@ -126,7 +136,8 @@ ip.src == 142.250.1.139
 
 2. Press ENTER or click the Apply display filter icon in the filter text box.
 
-(img11)
+![11](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/4d4c5904-85cb-44de-8a91-b21eee80bc9a)
+
 
 A filtered list is returned with fewer entries than before. It contains only packets that came from 142.250.1.139.
 
@@ -138,7 +149,8 @@ ip.dst == 142.250.1.139
 
 Press ENTER or click the Apply display filter icon in the filter text box.
 
-(img12)
+![12](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/3b627d0b-d2f6-4a7e-a535-a055039e7b92)
+
 
 A filtered list is returned that contains only packets that were sent to 142.250.1.139.
 
@@ -154,7 +166,8 @@ eth.addr == 42:01:ac:15:e0:02
 
 10. Double-click the Ethernet II subtree if it is not already open.
 
-(img13)
+![13](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/73e8fd4b-7271-490b-907b-c8d4c7fc993f)
+
 
 The MAC address you specified in the filter is listed as either the source or destination address in the expanded Ethernet II subtree.
 
@@ -162,7 +175,8 @@ The MAC address you specified in the filter is listed as either the source or de
 
 12.  Double-click the Internet Protocol Version 4 subtree to expand it and scroll down until the Time to Live and Protocol fields appear.
 
-(img14)
+![14](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/b214636c-d98c-4adc-80b6-50648f897cd5)
+
 
 The Protocol field in the Internet Protocol Version 4 subtree indicates which IP internal protocol is contained in the packet.
 
@@ -186,7 +200,8 @@ udp.port == 53
 
 5. Scroll down and double-click Queries.
 
-(img15)
+![15](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/3d8ada30-4c7c-4df7-b32f-e82787f78c09)
+
 
 You’ll notice that the name of the website that was queried is opensource.google.com.
 
@@ -198,7 +213,8 @@ You’ll notice that the name of the website that was queried is opensource.goog
 
 9. Scroll down and double-click Answers, which is in the Domain Name System (query) subtree.
 
-(img16)
+![16](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/8978e2fc-c86c-4582-8ad6-0cee13343485)
+
 
 The Answers data includes the name that was queried (opensource.google.com) and the addresses that are associated with that name.
 
@@ -220,7 +236,7 @@ Quite a few packets were created when the user accessed the web page http://open
 
 3. Double-click the first packet in the list. The Destination IP address of this packet is 169.254.169.254.
 
-(img17)
+![17](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/478d7898-2df1-47fd-902f-49a2a70ea717)
 
 4. Click the X icon to close the detailed packet inspection window.
 
@@ -232,6 +248,7 @@ tcp contains "curl"
 
 7. Press ENTER or click the Apply display filter icon in the filter text box.
 
-(img18)
+![18](https://github.com/ButchBytes-sec/ButchBytes-sec/assets/78964580/7115fa92-412e-4af4-807d-755ef20fc3d2)
+
 
 This filters to packets containing web requests made with the curl command in this sample packet capture file.
