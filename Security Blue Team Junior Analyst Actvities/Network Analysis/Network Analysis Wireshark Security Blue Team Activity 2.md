@@ -1,4 +1,4 @@
-This is part 2 of 2 of the Wireshark Challenge from one of the activities in Security Blue Team’s free course. Here are the questions:
+## Network Analysis Wireshark Security Blue Team Activity 2/2
 
 _Disclaimer: The activities and information shared in relation to my pursuit of the Security Blue Team Junior Analyst Certification are intended solely for educational purposes. Any content or knowledge acquired during this certification attempt is not intended for malicious or unauthorized use. I strictly adhere to ethical standards and emphasize that this information is shared with the sole purpose of advancing my educational journey in cybersecurity._
 
