@@ -15,7 +15,7 @@
 
 <h2>📜 Professional Certificates:</h2>
 
-- [SC-900: Microsoft Security, Compliance, and Identity](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/SC-900.md)
+- [SC-900: Microsoft Security, Compliance, and Identity](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Professional%20Certificate/Microsoft/SC-900:%20Microsoft%20Security,%20Compliance,%20and%20Identity%20Fundamentals.md)
 - [ISC2 Certified in Cybersecurity]()
 - [Google Cybersecurity Professional]()
 
