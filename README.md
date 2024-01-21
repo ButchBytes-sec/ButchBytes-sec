@@ -47,7 +47,7 @@
 - [Tools of the Trade: Linux and SQL](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Google%20Cybersecurity%20Professional/04%20Tools%20of%20the%20Trade%20-%20Linux%20and%20SQL.md)
 - [Assets, Threats, and Vulnerabilities](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Google%20Cybersecurity%20Professional/05%20Assets%2C%20Threats%2C%20and%20Vulnerabilities.md)
 - [Sound the Alarm: Detection and Response](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Google%20Cybersecurity%20Professional/06%20Sound%20the%20Alarm%20-%20Detection%20and%20Response.md)
-- [Automate Cybersecurity Tasks with Python]
+- [Automate Cybersecurity Tasks with Python](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Google%20Cybersecurity%20Professional/07%20Automate%20Cybersecurity%20Tasks%20with%20Python)
 - [Put It to Work: Prepare for Cybersecurity Jobs]
 
 <h2>🛡️ Security Blue Team Junior Analyst Activities and Capstone Projects:</h2>
