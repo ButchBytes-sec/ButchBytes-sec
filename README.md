@@ -48,7 +48,7 @@
 - [Assets, Threats, and Vulnerabilities](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Google%20Cybersecurity%20Professional/05%20Assets%2C%20Threats%2C%20and%20Vulnerabilities.md)
 - [Sound the Alarm: Detection and Response](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Google%20Cybersecurity%20Professional/06%20Sound%20the%20Alarm%20-%20Detection%20and%20Response.md)
 - [Automate Cybersecurity Tasks with Python](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Google%20Cybersecurity%20Professional/07%20Automate%20Cybersecurity%20Tasks%20with%20Python.md)
-- [Put It to Work: Prepare for Cybersecurity Jobs]
+- [Put It to Work: Prepare for Cybersecurity Jobs](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Google%20Cybersecurity%20Professional/08%20Put%20It%20to%20Work%3A%20Prepare%20for%20Cybersecurity%20Jobs.md)
 
 <h2>🛡️ Security Blue Team Junior Analyst Activities and Capstone Projects:</h2>
 
