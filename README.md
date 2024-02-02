@@ -38,7 +38,7 @@
 - [Access Granted - Practical Physical](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Access%20Granted%20-%20Practical%20Physical.md)
 - [Cyber Threat Hunting](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Cyber%20Threat%20Hunting%20Training.md)
 - [How to Annoy Attackers with John Strand](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/How%20To%20Annoy%20Attackers%20with%20John%20Strand.md)
-- [Active Defense & Cyber Deception | John Strand]()
+- [Active Defense & Cyber Deception | John Strand](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Active%20Defense%20%26%20Cyber%20Deception%20%7C%20John%20Strand.md)
 
 <h2>🔰 Google Cybersecurity Professional:</h2>
 
