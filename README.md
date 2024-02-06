@@ -6,6 +6,7 @@
 
 - [Home SOC Analyst Lab](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/SOC%20Lab%201.md)
 - [Getting Started in Security with BHIS and MITRE ATT&CK Labs](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/Getting%20Started%20in%20Security%20with%20BHIS%20and%20MITRE%20ATT%26CK/Getting%20Started%20in%20Security%20with%20BHIS%20and%20MITRE%20ATT%26CK%20Navigator.md)
+- [SOC Core Skills](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/SOC%20Core%20Skills.md)
 - [Security Blue Team Labs](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/Security%20Blue%20Team/SBT%20Navigator.md)
 - [Google Cybersecurity Professional Wireshark Activity](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/IT%20Projects/Wireshark.md)
 - [TryHackMe Rooms](https://github.com/ButchBytes-sec/TryHackMe)
