@@ -72,16 +72,6 @@
 - [CompTIA A+](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/CompTIA%20A+.md)
 - [ISC2 - Certified in Cybersecurity](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/ISC2%20-%20Certified%20in%20Cybersecurity.md)
 
-<h2>🎯 SOC Core Skills</h2>
-
-- [Endpoint Analysis]
-- [Crisis Management]
-- [Endpoint Security Protection Analysis]
-- [NetFlow, Zeek/Bro, Real Intelligence Threat Analytics (RITA) Analysis]
-- [User and Entity Behavior Analytics (UEBA)]
-- [Isolation]
-- [Server Analysis]
-- [Internal Segmentation]
 
 <h2> 🤳 Connect with me:</h2>
 
