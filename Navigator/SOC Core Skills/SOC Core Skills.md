@@ -1,1 +1,2 @@
-lorem ipsum
+## SOC Core Skills Labs
+
