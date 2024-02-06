@@ -7,10 +7,7 @@
 - [Home SOC Analyst Lab](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/SOC%20Lab%201.md)
 - [AppLocker](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/BHIS-Antisyphon/MITRE%20ATT&CK%20Labs/AppLocker.md)
 - [Password Spray](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/BHIS-Antisyphon/MITRE%20ATT&CK%20Labs/Password%20Spray.md)
-- [Network Analysis Course Capstone](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Network%20Analysis/Network%20Analysis%20Course%20Capstone.md)
-- [Network Analysis Wireshark Security Blue Team Activity 1/2](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Network%20Analysis/Network%20Analysis%20Wireshark%20Security%20Blue%20Team%20Activity%201.md)
-- [Network Analysis Wireshark Security Blue Team Activity 2/2](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/Network%20Analysis/Network%20Analysis%20Wireshark%20Security%20Blue%20Team%20Activity%202.md)
-- [OSINT](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Security%20Blue%20Team%20Junior%20Analyst%20Actvities/OSINT/OSINT%20Course%20Capstone.md)
+- [Security Blue Team Labs](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/Security%20Blue%20Team/SBT%20Navigator.md)
 - [Google Cybersecurity Professional Wireshark Activity](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/IT%20Projects/Wireshark.md)
 - [TryHackMe Rooms](https://github.com/ButchBytes-sec/TryHackMe)
 
