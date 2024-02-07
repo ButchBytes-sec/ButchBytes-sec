@@ -170,7 +170,6 @@ LimaCharlie is a relatively new, very powerful “Security Infrastructure as a 
     
     ```
     sudo su
-    
     ```
     
     ```
