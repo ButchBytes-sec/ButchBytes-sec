@@ -12,7 +12,7 @@ When you get the User Account Control Prompt, select Yes.
 
 And then, open a Ubuntu command prompt:
 
-![[Pasted image 20240206024117.png]]
+![](01tcpdump/02.png)
 
 We are going to start with a very basic filter that simply shows us the data associated with a specific host.
 
@@ -26,30 +26,30 @@ $ `tcpdump -n -r magnitude_1hr.pcap host 192.168.99.52`
 
 For this command we are telling tcpdump to not resolve hostnames (-n) and we are telling it to read in the data from a file (-r).
 
-![[Pasted image 20240206024536.png]]
+![](01tcpdump/03.png)
 
 What exactly is this showing us?
 
 Well, it is showing each packet's timestamp:
 
-![[Pasted image 20240206024618.png]]
+![](01tcpdump/04.png)
 
 Its protocol:
 
-![[Pasted image 20240206024655.png]]
+![](01tcpdump/05.png)
 
 Its source IP address/port direction and destination IP address/port :
 
-![[Pasted image 20240206024735.png]]
+![](01tcpdump/06.png)
 
 Its control bit flags and sequence numbers:
 
-![[Pasted image 20240206024850.png]]
+![](01tcpdump/07.png)
 
 And data size:
 
 
-![[Pasted image 20240206024918.png]]
+![](01tcpdump/08.png)
 
 
 But we can get the filter to be a bit more granular.  In fact, you can create filters for literally every part of a packet!
@@ -60,7 +60,7 @@ $` tcpdump -n -r magnitude_1hr.pcap host 192.168.99.52 and port 80`
 
 You can hit ctrl+c after a few seconds:
 
-![[Pasted image 20240206025052.png]]
+![](01tcpdump/09.png)
 
 In the screenshot above you can see we now have all the packets that are either sent or received by port 80 on 192.168.99.52.
 
@@ -68,24 +68,24 @@ While getting the overall metadata from the packets is nice, we can get the full
 
 $`tcpdump -n -r magnitude_1hr.pcap host 192.168.99.52 and port 80 -A`
 
-![[Pasted image 20240206025203.png]]
+![](01tcpdump/10.png)
 
 As you can see above, we now can see the actual http GET requests and the responses.  
 
 Lets dig into the packet with the timestamp of 09:14:32.638609
 
-![[Pasted image 20240206025406.png]]
+![](01tcpdump/11.png)
 
 Ouch, it looks like PowerShell!!!  A favorite of attackers and pentesters alike.  Further, it looks like there is Base64 data.
 
-![[Pasted image 20240206025853.png]]
+![](01tcpdump/12.png)
 
 
 Still not enough?  We can also see the raw Hex, if that is your sort of thing, with the -X flag:
 
 $`tcpdump -n -r magnitude_1hr.pcap host 192.168.99.52 and port 80 -AX`
 
-![[Pasted image 20240206030216.png]]
+![](01tcpdump/13.png)
 
 We can also specify specific protocols of interest.
 
@@ -93,7 +93,7 @@ For example.
 
 $ `tcpdump -n -r magnitude_1hr.pcap ip6`
 
-![[Pasted image 20240206030316.png]]
+![](01tcpdump/14.png)
 
 This is showing all the ipv6 traffic.
 
