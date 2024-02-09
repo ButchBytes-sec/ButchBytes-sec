@@ -5,7 +5,7 @@ In this lab we will be looking at some basic tcpdump filters every SOC and secur
 Let’s get started by opening a Terminal as Administrator
 
 
-![[Pasted image 20240206024035.png]]
+![](01tcpdump/01.png)
 
 
 When you get the User Account Control Prompt, select Yes.
