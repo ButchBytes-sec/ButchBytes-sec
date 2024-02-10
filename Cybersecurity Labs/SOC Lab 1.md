@@ -2,7 +2,7 @@
 
 ---
 
-_Disclaimer: The content, procedures, and materials presented in this lab are solely for educational purposes, and any information obtained is intended for the pursuit of education in cybersecurity. The procedures outlined in this lab were inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capuano/), an instructor at the SANS Institute. As someone striving to establish a presence in the information security field, I regularly encounter a common question: 'What steps can I take to improve my chances of securing an entry-level SOC analyst position?' This is a question I have consistently asked myself. To address this and translate theoretical learning into practical experience, I delved into the exciting realm of Virtual Machines. This is just the beginning._
+> _Disclaimer: The content, procedures, and materials presented in this lab are solely for educational purposes, and any information obtained is intended for the pursuit of education in cybersecurity. The procedures outlined in this lab were inspired by [Eric Capuano](https://www.sans.org/profiles/eric-capuano/), an instructor at the SANS Institute. As someone striving to establish a presence in the information security field, I regularly encounter a common question: 'What steps can I take to improve my chances of securing an entry-level SOC analyst position?' This is a question I have consistently asked myself. To address this and translate theoretical learning into practical experience, I delved into the exciting realm of Virtual Machines. This is just the beginning._
 
 ---
 
