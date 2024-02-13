@@ -4,7 +4,7 @@
 - [Wireshark](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/Wireshark.md)
 - [Linux CLI](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/LinuxCLI.md)
 - [Windows CLI](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/WindowsCLI.md)
-- [DeepBlueCLI]()
+- [DeepBlueCLI](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/DeepBlueCLI.md)
 - [Firewall Log Review]()
 - [Memory Analysis]()
 - [RITA]()
