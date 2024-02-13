@@ -14,5 +14,5 @@
 - [Sysmon](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/Sysmon.md)
 - [Bluespawn](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/Bluespawn.md)
 - [OWASP ZAP - Web Testing](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/OWASP%20ZAP%20-%20Web%20Testing.md)
-- [Velociraptor]()
+- [Velociraptor](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/Velociraptor.md)
 - [ELK]()
