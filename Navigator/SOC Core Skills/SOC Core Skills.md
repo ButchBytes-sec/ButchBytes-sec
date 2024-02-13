@@ -6,7 +6,7 @@
 - [Windows CLI](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/WindowsCLI.md)
 - [DeepBlueCLI](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/DeepBlueCLI.md)
 - [Firewall Log Review](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/Firewall%20Log%20Review.md)
-- [Memory Analysis]()
+- [Memory Analysis](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/Memory%20Analysis.md)
 - [RITA]()
 - [Domain Log Review]()
 - [Sysmon]()
