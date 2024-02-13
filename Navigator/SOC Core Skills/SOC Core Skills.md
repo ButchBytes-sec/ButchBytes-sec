@@ -2,6 +2,8 @@
 
 > [SOC Core Skills Course](https://www.antisyphontraining.com/on-demand-courses/soc-core-skills-w-john-strand/) by [John Strand](https://www.sans.org/profiles/john-strand/)
 
+> [Certificate of Completion](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/SOC%20Core%20Skills%20%7C%20John%20Strand.md)
+
 > Covered essential areas such as core networking skills, live Windows and Linux forensics, memory forensics, Active Directory analysis, network threat hunting, basics of vulnerability management, and the incident response process.
 
 
