@@ -72,7 +72,7 @@ Hold onto this command.  It is recommended to paste this command into some file 
 The ELK stack is now configured and we have our connection information saved.
 Next part will cover how to install and configure an Elastic Agent.
 
---
+---
 
 ### Elastic Agent
 
@@ -80,7 +80,6 @@ In part one, we started an ELK instance in the Elastic Cloud.
 
 The Elastic Agent software enables users to easily send logs to our ELK instance, a process typically called "ingesting."
 
----
 
 **1. Download the Elastic Agent.**
 
