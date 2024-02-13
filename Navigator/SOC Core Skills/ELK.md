@@ -70,7 +70,9 @@ Hold onto this command.  It is recommended to paste this command into some file 
 ![](_attachments/Pasted%20image%2020240213181516.png)
 
 The ELK stack is now configured and we have our connection information saved.
-Part two will cover how to install and configure an Elastic Agent.
+Next part will cover how to install and configure an Elastic Agent.
+
+--
 
 ### Elastic Agent
 
