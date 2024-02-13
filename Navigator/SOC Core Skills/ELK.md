@@ -21,8 +21,6 @@ date: Feb 10, 2024
 2. Watch your email for a confirmation. The email will look something similar to this.
 3. Click "Verify and Accept."  You should be redirected to the cloud login page.  If you're not redirected, you can find it here.
 
----
-
 After logging in, the page will look like this.
 
 ![](_attachments/Pasted%20image%2020240213175525.png)
