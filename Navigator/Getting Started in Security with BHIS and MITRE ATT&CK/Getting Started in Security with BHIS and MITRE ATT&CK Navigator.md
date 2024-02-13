@@ -6,3 +6,16 @@
 
 - [AppLocker](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/BHIS-Antisyphon/MITRE%20ATT&CK%20Labs/AppLocker.md)
 - [Password Spray](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Cybersecurity%20Labs/BHIS-Antisyphon/MITRE%20ATT&CK%20Labs/Password%20Spray.md)
+- [Bluespawn](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/Bluespawn.md)
+- [DeepBlueCLI](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/DeepBlueCLI.md)
+- [RITA](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/R.I.T.A.md)
+- Nessus
+- Nmap
+- Password Spraying
+- Responder
+- Sysmon
+- Web Testing
+- Falcon
+- ConnectSecure
+- Azure IR
+- AC Hunter CE
