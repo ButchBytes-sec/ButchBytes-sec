@@ -1,6 +1,9 @@
 ## SOC Core Skills Labs
 
 > [SOC Core Skills Course](https://www.antisyphontraining.com/on-demand-courses/soc-core-skills-w-john-strand/)
+> Instructor: [John Strand](https://www.sans.org/profiles/john-strand/)
+> Covered essential areas such as core networking skills, live Windows and Linux forensics, memory forensics, Active Directory analysis, network threat hunting, basics of vulnerability management, and the incident response process.
+
 
 - [TCPDump](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/TCPDump.md)
 - [Wireshark](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/Wireshark.md)
