@@ -11,11 +11,11 @@
 - [RITA](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/R.I.T.A.md)
 - [Web Testing](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/OWASP%20ZAP%20-%20Web%20Testing.md)
 - [Sysmon](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/Sysmon.md)
-- Nessus
-- Nmap
-- Password Cracking
-- Responder
-- Falcon
-- ConnectSecure
-- Azure IR
-- AC Hunter CE
+- [Nessus]()
+- [Nmap]()
+- [Password Cracking]()
+- [Responder]()
+- [Falcon]()
+- [ConnectSecure]()
+- [Azure IR]()
+- [AC Hunter CE]()
