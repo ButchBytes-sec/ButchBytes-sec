@@ -89,3 +89,5 @@ Look at the last field.  See a pattern?  Is there one?  Let's see just that fiel
 Next, let's some math at that field! 
 
 <pre>grep 192.168.1.6 ASA-syslogs.txt | grep -v 24.230.56.6 | grep FIN | grep 18.160.185.174 | cut -d ' ' -f 8,14 | tr : ' ' | tr / ' '  | cut -d ' ' -f 4 | Rscript -e 'y <-scan("stdin", quiet=TRUE)' -e 'cat(min(y), max(y), mean(y), sd(y), var(y), sep="\n")'</pre>
+
+ ![](_attachments/Pasted%20image%2020240213193933.png)
