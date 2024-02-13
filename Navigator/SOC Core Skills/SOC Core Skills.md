@@ -12,7 +12,7 @@
 - [R.I.T.A.](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/R.I.T.A.md)
 - [Domain Log Review](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/Domain%20Log%20Review.md)
 - [Sysmon](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/Sysmon.md)
-- [Bluespawn]()
+- [Bluespawn](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Navigator/SOC%20Core%20Skills/Bluespawn.md)
 - [OWASP ZAP - Web Testing]()
 - [Velociraptor]()
 - [ELK]()
