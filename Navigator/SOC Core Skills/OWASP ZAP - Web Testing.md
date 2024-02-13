@@ -8,10 +8,7 @@ tags:
 date: Feb 09, 2024
 ---
 
-# 12. OWASP ZAP - Web Testing
-
-
-### OWASP ZAP - Web Testing
+## OWASP ZAP - Web Testing
 
 > _Disclaimer: The content, procedures, and materials provided in this lab are strictly for educational purposes. Any information acquired is intended solely for advancing knowledge in cybersecurity. All procedures outlined in this lab, along with the VM utilized, were developed and acquired from the [SOC Core Skills](https://www.antisyphontraining.com/on-demand-courses/soc-core-skills-w-john-strand/) course instructed by [John Strand](https://www.sans.org/profiles/john-strand/). It is emphasized that the knowledge gained here will not be applied for any unauthorized or malicious activities._
 
