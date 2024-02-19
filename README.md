@@ -59,7 +59,7 @@
 - [Threat Hunting]
 - [Vulnerability Management]
 
-<h2>🌐 IT Projects:</h2>
+<h2>🌐 IT Homelab Projects:</h2>
 
 - [Active Directory Homelab]
 
