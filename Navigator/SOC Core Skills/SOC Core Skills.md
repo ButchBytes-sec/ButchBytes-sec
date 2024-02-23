@@ -4,6 +4,15 @@
 
 > [Certificate of Completion](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/SOC%20Core%20Skills%20%7C%20John%20Strand.md)
 
+>Core networking skills
+Live Windows Forensics
+Live Linux Forensics
+Memory Forensics
+Active Directory Analysis
+Network Threat Hunting
+Basics of Vulnerability Management
+The Incident Response Process
+
 
 
 #### Labs
