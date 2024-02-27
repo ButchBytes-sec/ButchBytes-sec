@@ -20,7 +20,7 @@
 
 <h2>📒 Trainings Attended, Certifications and Notes:</h2>
 
-- [Level 1 - Cyber Threat Hunting Training]()
+- [Level 1 - Cyber Threat Hunting Training](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Level%201%20-%20Cyber%20Threat%20Hunting%20Training.md)
 - [SOC Core Skills with John Strand](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/SOC%20Core%20Skills%20%7C%20John%20Strand.md)
 - [Active Defense & Cyber Deception with John Strand](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/Active%20Defense%20%26%20Cyber%20Deception%20%7C%20John%20Strand.md)
 - [How to Annoy Attackers with John Strand](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/How%20To%20Annoy%20Attackers%20with%20John%20Strand.md)
