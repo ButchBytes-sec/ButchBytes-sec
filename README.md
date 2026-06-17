@@ -1,8 +1,8 @@
 <h1>Hey, I'm Butch.!</h1>
 
-**This is where I keep track of the projects, labs, trainings, and the occasional publication I'm working through — partly to document progress, partly so future-me doesn't forget what past-me learned.**
+**Service desk engineer building toward cloud and security. I'm deliberately casting a wide net early on — better to explore the field properly now than specialize before I know what's worth specializing in.**
 
-**I only like two things: studying and chewing gum. And right now, I'm out of gum.**
+**I only like two things: studying and chewing gum. Out of gum.**
 
 <h2>🛡️ Cybersecurity Projects:</h2>
 
