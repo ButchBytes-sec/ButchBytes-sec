@@ -77,6 +77,10 @@
 - [CompTIA A+](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/CompTIA%20A+.md)
 - [ISC2 - Certified in Cybersecurity](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/Trainings/ISC2%20-%20Certified%20in%20Cybersecurity.md)
 
+<h2>:notebook: Notes</h2>
+
+- [AZ-900 Cheat Sheet](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/AZ-900/AZ-900%20Cheat%20Sheet.md)
+
 
 <h2> 🤳 Connect with me:</h2>
 
