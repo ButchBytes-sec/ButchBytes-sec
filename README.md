@@ -83,6 +83,8 @@
 
 - [AZ-900 Cheat Sheet](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/AZ-900/AZ-900%20Cheat%20Sheet.md)
 
+- [AZ-900 Glossary](https://github.com/ButchBytes-sec/ButchBytes-sec/blob/main/AZ-900/AZ-900%20Glossary.md)
+
 
 <h2> 🤳 Connect with me:</h2>
 
