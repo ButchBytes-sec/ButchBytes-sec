@@ -1,8 +1,6 @@
 <h1>Hey, I'm Butch.!</h1>
 
-**Service desk engineer building toward cloud and security. I'm deliberately casting a wide net early on — better to explore the field properly now than specialize before I know what's worth specializing in.**
-
-**I only like two things: studying and chewing gum. Out of gum.**
+**Service desk engineer with hands-on Entra ID/Azure identity experience at enterprise scale, now building toward cloud and security engineering. AZ-104 in progress — documenting labs and scripts here**
 
 <h2>🛡️ Cybersecurity Projects:</h2>
 
