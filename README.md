@@ -1,6 +1,6 @@
 <h1>Hey, I'm Butch.!</h1>
 
-**Service desk engineer with hands-on Entra ID/Azure identity experience at enterprise scale, now building toward cloud and security engineering. AZ-104 in progress — documenting labs and scripts here**
+**Service desk engineer building toward cloud and security engineering. This repo covers both sides: Azure/cloud work (AZ-104, PowerShell, infra labs) and security operations (SOC labs, threat hunting, MITRE ATT&CK)**
 
 <h2>🛡️ Cybersecurity Projects:</h2>
 
